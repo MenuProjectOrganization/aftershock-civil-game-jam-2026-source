@@ -1,0 +1,6 @@
+Grass 001 from ambientCG.com - CC0 1.0 Universal.
+https://ambientcg.com/a/Grass001
+https://docs.ambientcg.com/license/
+Source technique: procedural PBR; no photogrammetry claim.
+Official physical tile ca1.4m x1.4m. Only unchanged1KColor,NormalDX,Roughness extracted.
+PublisherAPI does not supply an archive MD5: archiveCRC and observed SHA256 recorded explicitly.

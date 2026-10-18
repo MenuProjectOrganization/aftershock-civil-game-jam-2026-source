@@ -1,0 +1,59 @@
+{
+  "scope": "Existing source licence labels/URLs only; no fresh network,import,build or runtime verification.",
+  "records": [
+    {
+      "source_record": "_Imports/PolyHaven/leafy_grass/SOURCE_LICENSE_MANIFEST.json",
+      "source_record_sha256": "c36000f17bfba66c37399d6f3cdaefbe3e56718188781d3935c0f5a4966c1f18",
+      "asset": "leafy_grass",
+      "license": "CC0-1.0",
+      "source_page": "https://polyhaven.com/a/leafy_grass",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "source_record": "_Imports/PolyHaven/forrest_ground_01/SOURCE_LICENSE_MANIFEST.json",
+      "source_record_sha256": "1b0d72f34c3850f6fff466e704c598b64280f7be74d8df1a2f20072db7a19925",
+      "asset": "forrest_ground_01",
+      "license": "CC0-1.0",
+      "source_page": "https://polyhaven.com/a/forrest_ground_01",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "source_record": "_Imports/PolyHaven/dry_ground_rocks/SOURCE_LICENSE_MANIFEST.json",
+      "source_record_sha256": "13b1bed843d21c48b4f744514bb1164ff431ba44a6a10623b12dc9be951ef403",
+      "asset": "dry_ground_rocks",
+      "license": "CC0-1.0",
+      "source_page": "https://polyhaven.com/a/dry_ground_rocks",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "source_record": "_Imports/PolyHaven/aerial_rocks_01/SOURCE_LICENSE_MANIFEST.json",
+      "source_record_sha256": "2e84b6d675edcf7c2b9749a510623479e1c5014c6effd38b8ba6e97d2ac07b14",
+      "asset": "aerial_rocks_01",
+      "license": "CC0-1.0",
+      "source_page": "https://polyhaven.com/a/aerial_rocks_01",
+      "license_url": "https://polyhaven.com/license"
+    },
+    {
+      "source_record": "_Imports/GlobalEnvironment/SOURCE_MANIFEST.json",
+      "source_record_sha256": "b3f29f70f422bf3b3f85b97178e681256709758ea1e869af1dd4670a7d7388ee",
+      "asset_license": "CC0-1.0",
+      "source": "Poly Haven and ambientCG official public APIs; no website scraping",
+      "license_url": "https://polyhaven.com/license",
+      "api_credit": "Powered by Poly Haven"
+    },
+    {
+      "source_record": "_Imports/GlobalEnvironment/RoadSurface/SOURCE_MANIFEST.json",
+      "source_record_sha256": "2dbb99c62adf4fe30e4debeaf9acb6f59c49771a929a294de60dd3f555b0f915",
+      "asset_license": "CC0-1.0",
+      "source": "Poly Haven official public API; no website scraping",
+      "license_url": "https://polyhaven.com/license",
+      "api_credit": "Powered by Poly Haven"
+    },
+    {
+      "source_record": "_Imports/GlobalEnvironment/GreenMeadow/SOURCE_MANIFEST.json",
+      "source_record_sha256": "3b656ff9b0ee3936ccf812f35e3a77a0c534e70fbab71bfbbf8770eb738ce811",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/"
+    }
+  ]
+}

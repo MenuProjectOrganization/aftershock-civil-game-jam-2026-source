@@ -1,0 +1,11 @@
+Lisans/provenans sınırları — yayıncı için açık kontrol listesi
+
+1) ElevenLabs: İncelenen mevcut manifest 73 kayıt; klasörde 93 WAV/93 uasset vardır. Manifestte plan/terms/licence/usage-rights alanı yoktur. Üretim kaydı dağıtım izni değildir. Üretim tarihindeki hesap planı ve izin verilen dağıtım/atıf kapsamı ekipçe belgelenmelidir. Bu pakette seslere CC0 ya da sınırsız yeniden kullanım izni verilmez.
+2) Açılış resmi ve stüdyo logosu: Kullanıcı/sahip sağlama ve proje düzenleme yetkisi kaydedilmiştir. Bağımsız üçüncü taraf hak temizliği, genel kamu yeniden kullanım veya marka devri belgelenmiş sayılmaz.
+3) City Sample: Resmî edinim/Epic/Fab şartları kayıtlıdır; CC0/açık kaynak değildir. Bu belge paketi bağımsız hesap entitlement veya sözleşme uygunluğu kontrolü değildir. Yalnız uygun cooked ürün dağıtımı hedeflenir; raw asset paketi eklenmemiştir.
+4) OSM/Mapzen/Copernicus/EOX: Birbirinden farklı veri lisansları vardır. ODbL atıf/veri erişilebilirliği, Copernicus zorunlu bildirimleri ve yıl-spesifik EOX2016 CC BY4.0 kapsamı korunmalıdır. Tek bir CC0 etiketi hepsine uygulanamaz. Bu paket lisans/provenans metinleri taşır; dağıtılmış türev veritabanının bütün paylaşım yükümlülüklerini tek başına tamamladığını iddia etmez.
+5) Yerel tam metin kapsamı: ODbL, Bitstream Vera, Kenney şablon MIT metinleri ve EOX policy snapshot’ı vardır. CC0/CC-BY4.0/Epic/Fab/NASA/Copernicus için referans URL’leri ve kayıtlı atıflar verilmiştir; bulunmayan tam sözleşme metni uydurulmamış veya yeni indirilmemiştir.
+6) Özgün takım varlıkları için “same license as project” kayıtları genel CC0/MIT bağışı değildir. Ayrı asset pack için kamu yeniden kullanım yetkisi varsayılmaz.
+7) Unreal Engine/Microsoft/DirectX ve paketlenmiş üçüncü taraf binary’lerin kendi dağıtım bildirimleri korunmalıdır. Bu küçük seçki tüm engine dependency lisanslarının tam denetimi değildir.
+
+Build, test, imza, paket açılışı veya işitsel miks başarısı burada onaylanmaz. İnceleme yeni medya indirmemiş, ham medya kopyalamamış ve özel hesap/kullanıcı verisi içermemiştir.

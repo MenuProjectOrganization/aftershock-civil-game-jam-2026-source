@@ -1,0 +1,11 @@
+{
+  "provenance": "User-supplied project artwork",
+  "original_filename": "1-Fotoğraf-1.jpg",
+  "file": "AftershockOpening.jpg",
+  "sha256": "b031806fde4772a57abe30455a4ded1ef24b84d121988473b7ee988d159f515f",
+  "width": 1280,
+  "height": 720,
+  "image_modified": false,
+  "target_asset": "/Game/UI/Opening/T_AftershockOpening",
+  "layout": "ScaleToFit; entire supplied image and top-left logo retained"
+}

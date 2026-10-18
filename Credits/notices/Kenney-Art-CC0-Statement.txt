@@ -1,0 +1,6 @@
+Kenney Starter Kit City Builder — art licensing statement
+
+Assets included in this package (2D sprites, 3D models and sound effects) are [CC0 licensed](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Source reference: https://github.com/KenneyNL/Starter-Kit-City-Builder
+This is the art statement; accompanying MIT text applies to template software. The original Godot controls are not AFTERSHOCK controls.

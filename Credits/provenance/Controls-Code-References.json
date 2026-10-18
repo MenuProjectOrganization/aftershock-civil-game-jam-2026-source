@@ -1,0 +1,69 @@
+{
+  "root_provided_source_ref": "9c3e576",
+  "scope": "Read-only source inspection,not runtime/input/package acceptance. Line numbers are source snapshot navigation hints.",
+  "references": [
+    {
+      "source": "Source/JamProject/Aftershock/Private/AftershockSettingsSubsystem.cpp",
+      "source_sha256": "70919a4d103bf19ed9e3370d025522d03cd0774cff9869770f088d31d5fad5b1",
+      "source_bytes": 6086,
+      "line": 11,
+      "subject": "Default keyboard bindings"
+    },
+    {
+      "source": "Source/JamProject/Aftershock/Private/AftershockCameraPawn.cpp",
+      "source_sha256": "77708f84a40c4c4bb0f13f03ddaeea158dc5bd0e7042c143df83efd2f53eecb4",
+      "source_bytes": 56930,
+      "line": 265,
+      "subject": "Pointer and action bindings"
+    },
+    {
+      "source": "Source/JamProject/Aftershock/Private/AftershockCameraPawn.cpp",
+      "source_sha256": "77708f84a40c4c4bb0f13f03ddaeea158dc5bd0e7042c143df83efd2f53eecb4",
+      "source_bytes": 56930,
+      "line": 480,
+      "subject": "Default arrow aliases"
+    },
+    {
+      "source": "Source/JamProject/Aftershock/Private/AftershockSettingsWidget.cpp",
+      "source_sha256": "192d6ddea5d365b2089376f4d700b78a1221583e338bc8c3819b34debbe6b8b3",
+      "source_bytes": 34388,
+      "line": 151,
+      "subject": "Settings pages and display confirmation"
+    },
+    {
+      "source": "Source/JamProject/Aftershock/Private/AftershockMainHUDWidget.cpp",
+      "source_sha256": "79da1f6438dbe6dae8256bfe78caf10fe3d68352ea3f06f9c3ef178b1228e042",
+      "source_bytes": 134172,
+      "line": 2317,
+      "subject": "Pause/main/save actions"
+    },
+    {
+      "source": "Source/JamProject/Aftershock/Private/AftershockOpeningWidget.cpp",
+      "source_sha256": "3cb7d0f34bd00fa9592cb7c15fe4cf79828d8e050bee4df5d261ff9d66895c36",
+      "source_bytes": 33415,
+      "line": 296,
+      "subject": "Exit/SaveAndExit"
+    },
+    {
+      "source": "Source/JamProject/Aftershock/Private/AftershockSaveSubsystem.cpp",
+      "source_sha256": "024ce0eba030ac943cf4c9e59adf6bb7de20b348766c6fe14b48b42a6a6ba2e7",
+      "source_bytes": 111403,
+      "line": 1277,
+      "subject": "SaveAndExit/Continue semantics"
+    },
+    {
+      "source": "Source/JamProject/Aftershock/Game/AftershockPlayerController.cpp",
+      "source_sha256": "0898ce778c94e046f2b7017698aa99a671864e734d39d29662c2fbd2adb39e98",
+      "source_bytes": 29754,
+      "line": 294,
+      "subject": "New-game manual checkpoint"
+    },
+    {
+      "source": "Source/JamProject/Aftershock/Private/AftershockDisasterDirectorSubsystem.cpp",
+      "source_sha256": "7a82e0a42c5843619ed6ba12cc2aee1659ff3e20538bc769bdacf154bf9aa45e",
+      "source_bytes": 11967,
+      "line": 92,
+      "subject": "Autosave triggers"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+AFTERSHOCK global art sources
+Powered by Poly Haven
+Original six Poly Haven source assets: CC0-1.0; https://polyhaven.com/license
+Exact original URLs, per-provider integrity checks, SHA256 and physical tile scale: SOURCE_MANIFEST.json
+Poly Haven API MD5 verified. ambientCG: official archive CRC verified; no publisher MD5 supplied.
+
+Painted Plaster Wall by Amal Kumar — https://polyhaven.com/a/painted_plaster_wall
+Clay Roof Tiles 02 by Amal Kumar — https://polyhaven.com/a/clay_roof_tiles_02
+Wood Planks by Amal Kumar — https://polyhaven.com/a/wood_planks
+Dark Rock 02 by Amal Kumar — https://polyhaven.com/a/dark_rock_02
+Dry Ground 01 by Rob Tuytel — https://polyhaven.com/a/dry_ground_01
+Leafy Grass by Charlotte Baglioni — https://polyhaven.com/a/leafy_grass
+
+No displacement, AO, preview or model resources are stored or imported. The ambientCG material ZIP was retrieved transiently to extract only three selected maps; no website text was copied.
+Use only as visual surface sources; not scientific soil/material property measurements.
+
+Grass 001 from ambientCG - https://ambientcg.com/a/Grass001
+CC0-1.0 - https://docs.ambientcg.com/license/
+Source technique: procedural PBR, not a photogrammetry scan. Official scale ca1.4m x1.4m.
+Only unchanged Color, NormalDX and Roughness maps used; visual pixel statistics verified green.

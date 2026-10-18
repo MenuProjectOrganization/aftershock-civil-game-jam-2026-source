@@ -1,0 +1,16 @@
+# Asset sources and setup
+
+Use UE5.8.3. Each script contains its actual input files and `/Game` output paths. Do not replace original files blindly; inspect and configure paths first.
+
+| Resource/provider | Terms/source | Input and reconstruction |
+|---|---|---|
+| Epic Games City Sample5.8 | https://www.fab.com/listings/4898e707-7855-404b-af0e-a505ee690e68 ; Epic Content EULA https://www.unrealengine.com/eula/content | Obtain City Sample through your own Epic account. `prepare_citysample_architecture.ps1`, `ue_extract_citysample_selection.py`, `ue_prepare_citysample_architecture.py`, `ue_bake_citysample_facades.py`, `ue_bind_and_bake_citysample_facades.py` describe selection/bake/`/Game/Aftershock/CitySample` integration. No raw City Sample models/materials are shared here. |
+| Kenney Starter Kit City Builder/Platformer/FPS | https://github.com/KenneyNL/Starter-Kit-City-Builder ; https://github.com/KenneyNL/Starter-Kit-3D-Platformer ; https://github.com/KenneyNL/Starter-Kit-FPS ; art/audio CC0, template code separately MIT | Acquire official models/textures/sounds, convert/import following `ue_import_and_materials.py` and `building_asset_map.json`. |
+| Poly Haven / ambientCG | https://polyhaven.com/license ; https://ambientcg.com/a/Grass001 ; CC0 | Acquire named textures listed in Credits; import using ground/environment authoring scripts. Scripts may need local path configuration. |
+| OpenGameArt Ylmir/transitking/Bashar | URLs and CC0 notices in `Credits/notices/Weather-Audio.txt` | `build_weather_audio.py` and `ue_upgrade_weather_audio_assembly.py`; preserve attribution/source records. |
+| ElevenLabs Sound Effects | https://elevenlabs.io/creative-terms ; Creator plan reported by team | Raw WAV/SoundWave library is intentionally excluded. `ue_import_elevenlabs_audio.py` shows destination/catalog integration, but is not a generator entitlement. Acquire authorized inputs through the rights holder or regenerate under your own applicable plan. Generated output is not an open sound-library licence. |
+| Team procedural visuals/audio | Team production with disclosed AI assistance | `ue_author_*`, `generate_*_audio.py`, icon/proxy/render scripts implement materials, surfaces and procedural authoring. Follow individual inputs and output paths. |
+| Natural Earth / OSM / elevation / imagery / NASA climate | Separate notices in `Credits/`; Natural Earth public domain, OSM ODbL, other sources under their own stated terms | `fetch_offline_geography.py`, `fetch_real_geographic_tiles.py`, geography authoring scripts and embedded C++ regional tables. Offline input archives are omitted. Preserve attribution and derivative-data sharing obligations. |
+| Team-supplied splash and studio branding | Team usage authority, not a public trademark/art licence | Request authorized source from the rights holder; `ue_import_opening_artwork.py` and `ue_import_studio_branding.py` identify game destinations. Do not assume public reuse rights. |
+
+No restricted media is made downloadable through this setup guide. Merely providing a source link is not proof of entitlement. Standalone asset reproduction and the complete imported artwork are separate from compiling/reviewing the public C++ implementation.

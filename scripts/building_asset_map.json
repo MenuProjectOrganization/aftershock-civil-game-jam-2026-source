@@ -1,0 +1,317 @@
+[
+  {
+    "building_type": "House",
+    "display_name": "Küçük Ev",
+    "source_model_path": "_refs/Starter-Kit-City-Builder/models/building-small-a.glb",
+    "target_static_mesh_name": "SM_House_01",
+    "target_fractured_mesh_name": "GC_House_01",
+    "target_data_asset_name": "BD_House",
+    "default_material": "Wood",
+    "floors_min": 1,
+    "floors_max": 2,
+    "target_footprint_cm": {
+      "x": 400.0,
+      "y": 400.0
+    },
+    "target_height_per_floor_cm": 300.0,
+    "stats": {
+      "cost_tl": 1000,
+      "tax_per_turn": 50,
+      "maintenance_per_turn": 10,
+      "residents_min": 4,
+      "residents_max": 4,
+      "workers_min": 0,
+      "workers_max": 0,
+      "co2_per_turn": 0.5,
+      "satisfaction_per_turn": 0.0,
+      "base_resistance": {
+        "Earthquake": 0.3,
+        "Flood": 0.2,
+        "Wind": 0.4,
+        "Fire": 0.1,
+        "Tsunami": 0.15
+      }
+    },
+    "selection_reason": "Klasik eğimli çatılı müstakil ahşap konut mimarisi. Düşük maliyetli, 1-2 katlı, 4 sakinlik müstakil konut gereksinimini birebir karşılar."
+  },
+  {
+    "building_type": "Apartment",
+    "display_name": "Apartman",
+    "source_model_path": "_refs/Starter-Kit-City-Builder/models/building-small-b.glb",
+    "target_static_mesh_name": "SM_Apartment_01",
+    "target_fractured_mesh_name": "GC_Apartment_01",
+    "target_data_asset_name": "BD_Apartment",
+    "default_material": "Concrete",
+    "floors_min": 4,
+    "floors_max": 10,
+    "target_footprint_cm": {
+      "x": 450.0,
+      "y": 450.0
+    },
+    "target_height_per_floor_cm": 300.0,
+    "stats": {
+      "cost_tl": 5000,
+      "tax_per_turn": 300,
+      "maintenance_per_turn": 30,
+      "residents_min": 20,
+      "residents_max": 50,
+      "workers_min": 0,
+      "workers_max": 0,
+      "co2_per_turn": 2.0,
+      "satisfaction_per_turn": 0.0,
+      "base_resistance": {
+        "Earthquake": 0.8,
+        "Flood": 0.9,
+        "Wind": 0.8,
+        "Fire": 0.9,
+        "Tsunami": 0.75
+      }
+    },
+    "selection_reason": "Orta-yüksek katlı (1.63 ham yükseklik), düzenli pencere ve balkon sıralı betonarme toplu konut bloğu görünümündedir."
+  },
+  {
+    "building_type": "Office",
+    "display_name": "Ofis",
+    "source_model_path": "_refs/Starter-Kit-City-Builder/models/building-small-c.glb",
+    "target_static_mesh_name": "SM_Office_01",
+    "target_fractured_mesh_name": "GC_Office_01",
+    "target_data_asset_name": "BD_Office",
+    "default_material": "Steel",
+    "floors_min": 5,
+    "floors_max": 15,
+    "target_footprint_cm": {
+      "x": 450.0,
+      "y": 450.0
+    },
+    "target_height_per_floor_cm": 300.0,
+    "stats": {
+      "cost_tl": 8000,
+      "tax_per_turn": 500,
+      "maintenance_per_turn": 50,
+      "residents_min": 0,
+      "residents_max": 0,
+      "workers_min": 30,
+      "workers_max": 100,
+      "co2_per_turn": 3.0,
+      "satisfaction_per_turn": 0.0,
+      "base_resistance": {
+        "Earthquake": 0.9,
+        "Flood": 0.7,
+        "Wind": 0.6,
+        "Fire": 0.8,
+        "Tsunami": 0.7
+      }
+    },
+    "selection_reason": "Kitteki en yüksek yapı (1.75 ham yükseklik). Modern cephe kule formu ve çatı tesisat detaylarıyla çelik konstrüksiyon iş merkezi için idealdir."
+  },
+  {
+    "building_type": "Factory",
+    "display_name": "Fabrika",
+    "source_model_path": "_refs/Starter-Kit-City-Builder/models/building-garage.glb",
+    "target_static_mesh_name": "SM_Factory_01",
+    "target_fractured_mesh_name": "GC_Factory_01",
+    "target_data_asset_name": "BD_Factory",
+    "default_material": "Prefab",
+    "floors_min": 1,
+    "floors_max": 3,
+    "target_footprint_cm": {
+      "x": 450.0,
+      "y": 450.0
+    },
+    "target_height_per_floor_cm": 300.0,
+    "stats": {
+      "cost_tl": 10000,
+      "tax_per_turn": 800,
+      "maintenance_per_turn": 100,
+      "residents_min": 0,
+      "residents_max": 0,
+      "workers_min": 30,
+      "workers_max": 50,
+      "co2_per_turn": 15.0,
+      "satisfaction_per_turn": -1.0,
+      "base_resistance": {
+        "Earthquake": 0.5,
+        "Flood": 0.4,
+        "Wind": 0.5,
+        "Fire": 0.6,
+        "Tsunami": 0.35
+      }
+    },
+    "selection_reason": "Geniş yükleme kepengi, yatay yayvan formu (0.55 ham yükseklik) ve endüstriyel atölye/hangar mimarisiyle prefabrik fabrika tipine tam uyar."
+  },
+  {
+    "building_type": "Hospital",
+    "display_name": "Hastane",
+    "source_model_path": "_refs/Starter-Kit-City-Builder/models/building-small-d.glb",
+    "target_static_mesh_name": "SM_Hospital_01",
+    "target_fractured_mesh_name": "GC_Hospital_01",
+    "target_data_asset_name": "BD_Hospital",
+    "default_material": "Concrete",
+    "floors_min": 3,
+    "floors_max": 6,
+    "target_footprint_cm": {
+      "x": 450.0,
+      "y": 450.0
+    },
+    "target_height_per_floor_cm": 300.0,
+    "stats": {
+      "cost_tl": 15000,
+      "tax_per_turn": 0,
+      "maintenance_per_turn": 80,
+      "residents_min": 0,
+      "residents_max": 0,
+      "workers_min": 20,
+      "workers_max": 40,
+      "co2_per_turn": 1.0,
+      "satisfaction_per_turn": 2.0,
+      "base_resistance": {
+        "Earthquake": 0.8,
+        "Flood": 0.9,
+        "Wind": 0.8,
+        "Fire": 0.9,
+        "Tsunami": 0.75
+      }
+    },
+    "selection_reason": "Düz çatılı, geniş girişli, modüler kurumsal servis binası formu sağlık ocağı / hastane yerleşkesi kimliğine en uygun yapıdır."
+  },
+  {
+    "building_type": "School",
+    "display_name": "Okul",
+    "source_model_path": "_refs/Starter-Kit-City-Builder/models/building-small-d.glb",
+    "target_static_mesh_name": "SM_School_01",
+    "target_fractured_mesh_name": "GC_School_01",
+    "target_data_asset_name": "BD_School",
+    "default_material": "Concrete",
+    "floors_min": 2,
+    "floors_max": 4,
+    "target_footprint_cm": {
+      "x": 450.0,
+      "y": 450.0
+    },
+    "target_height_per_floor_cm": 300.0,
+    "stats": {
+      "cost_tl": 12000,
+      "tax_per_turn": 0,
+      "maintenance_per_turn": 50,
+      "residents_min": 0,
+      "residents_max": 0,
+      "workers_min": 15,
+      "workers_max": 30,
+      "co2_per_turn": 0.8,
+      "satisfaction_per_turn": 1.5,
+      "base_resistance": {
+        "Earthquake": 0.8,
+        "Flood": 0.8,
+        "Wind": 0.8,
+        "Fire": 0.9,
+        "Tsunami": 0.7
+      }
+    },
+    "selection_reason": "Düşük katlı kurumsal eğitim kompleksi kimliğine uygun geniş girişli kamu mimarisi."
+  },
+  {
+    "building_type": "FireStation",
+    "display_name": "İtfaiye İstasyonu",
+    "source_model_path": "_refs/Starter-Kit-City-Builder/models/building-garage.glb",
+    "target_static_mesh_name": "SM_FireStation_01",
+    "target_fractured_mesh_name": "GC_FireStation_01",
+    "target_data_asset_name": "BD_FireStation",
+    "default_material": "Concrete",
+    "floors_min": 1,
+    "floors_max": 2,
+    "target_footprint_cm": {
+      "x": 450.0,
+      "y": 450.0
+    },
+    "target_height_per_floor_cm": 300.0,
+    "stats": {
+      "cost_tl": 10000,
+      "tax_per_turn": 0,
+      "maintenance_per_turn": 60,
+      "residents_min": 0,
+      "residents_max": 0,
+      "workers_min": 10,
+      "workers_max": 25,
+      "co2_per_turn": 1.0,
+      "satisfaction_per_turn": 1.0,
+      "base_resistance": {
+        "Earthquake": 0.8,
+        "Flood": 0.7,
+        "Wind": 0.8,
+        "Fire": 0.95,
+        "Tsunami": 0.6
+      }
+    },
+    "selection_reason": "İtfaiye araçlarının çıkışına uygun geniş rulo kepenk garaj kapısı tasarımıyla acil durum itfaiye binasına tam karşılık gelir."
+  },
+  {
+    "building_type": "PowerPlant",
+    "display_name": "Enerji Santrali",
+    "source_model_path": "_refs/Starter-Kit-City-Builder/models/building-garage.glb",
+    "target_static_mesh_name": "SM_PowerPlant_01",
+    "target_fractured_mesh_name": "GC_PowerPlant_01",
+    "target_data_asset_name": "BD_PowerPlant",
+    "default_material": "Steel",
+    "floors_min": 1,
+    "floors_max": 2,
+    "target_footprint_cm": {
+      "x": 450.0,
+      "y": 450.0
+    },
+    "target_height_per_floor_cm": 300.0,
+    "stats": {
+      "cost_tl": 18000,
+      "tax_per_turn": 600,
+      "maintenance_per_turn": 120,
+      "residents_min": 0,
+      "residents_max": 0,
+      "workers_min": 20,
+      "workers_max": 40,
+      "co2_per_turn": 18.0,
+      "satisfaction_per_turn": -0.5,
+      "base_resistance": {
+        "Earthquake": 0.7,
+        "Flood": 0.6,
+        "Wind": 0.7,
+        "Fire": 0.8,
+        "Tsunami": 0.5
+      }
+    },
+    "selection_reason": "Trafo, jeneratör ve teknik altyapı dağıtım istasyonu olarak işlev görebilecek endüstriyel teknik bina modeli."
+  },
+  {
+    "building_type": "GreenSpace",
+    "display_name": "Yeşil Alan (Şehir Parkı)",
+    "source_model_path": "_refs/Starter-Kit-City-Builder/models/grass-trees.glb",
+    "target_static_mesh_name": "SM_GreenSpace_01",
+    "target_fractured_mesh_name": "GC_GreenSpace_01",
+    "target_data_asset_name": "BD_Park",
+    "default_material": "Wood",
+    "floors_min": 1,
+    "floors_max": 1,
+    "target_footprint_cm": {
+      "x": 500.0,
+      "y": 500.0
+    },
+    "target_height_per_floor_cm": 300.0,
+    "stats": {
+      "cost_tl": 2000,
+      "tax_per_turn": 0,
+      "maintenance_per_turn": 5,
+      "residents_min": 0,
+      "residents_max": 0,
+      "workers_min": 0,
+      "workers_max": 2,
+      "co2_per_turn": -5.0,
+      "satisfaction_per_turn": 2.0,
+      "base_resistance": {
+        "Earthquake": 0.99,
+        "Flood": 0.6,
+        "Wind": 0.7,
+        "Fire": 0.2,
+        "Tsunami": 0.4
+      }
+    },
+    "selection_reason": "Ağaçlık peyzaj ve park alanı. CO2 emilimi sağlar, kent memnuniyetini artırır ve depremde sıfır çökme riski taşır."
+  }
+]

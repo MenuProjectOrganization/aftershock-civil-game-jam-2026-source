@@ -1,0 +1,9 @@
+Leafy Grass — Poly Haven
+https://polyhaven.com/a/leafy_grass
+Author(s): Charlotte Baglioni
+License: CC0 1.0 Universal — public domain dedication.
+https://creativecommons.org/publicdomain/zero/1.0/
+Provider statement: https://docs.polyhaven.com/en/faq
+Downloaded through the official API using AftershockAssetPreparation/1.0.
+Original 1k diffuse, DirectX normal and roughness JPEG files.
+Retain SOURCE_LICENSE_MANIFEST.json for integrity, authors and provenance.

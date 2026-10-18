@@ -1,0 +1,3 @@
+# Optional offline bounded COG importer, never an Unreal/runtime dependency.
+# Install separately into Saved/GeospatialRuntime as described in the source pack.
+rasterio==1.5.2

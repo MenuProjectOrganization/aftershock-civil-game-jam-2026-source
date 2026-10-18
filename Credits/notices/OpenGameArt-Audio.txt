@@ -1,0 +1,11 @@
+AFTERSHOCK weather audio source credits
+Verified 2026-10-17 from primary OpenGameArt pages.
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Credits preserved voluntarily; no author endorsement implied.
+
+Water Waves: wave 01 | transitking | CC0 1.0 | https://opengameart.org/content/water-waves
+Water Waves: wave 02 | transitking | CC0 1.0 | https://opengameart.org/content/water-waves
+Rain (loopable) | Ylmir | CC0 1.0 | https://opengameart.org/content/rain-loopable
+Mild Wind Background Noise | Bashar from Skirmish.io (https://skirmish.io/bashar) | CC0 1.0 | https://opengameart.org/content/mild-wind-background-noise
+
+Per-file SHA256, direct download URLs and archive member provenance: SOURCE_LICENSE_MANIFEST.json

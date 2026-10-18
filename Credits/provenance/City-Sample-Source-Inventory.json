@@ -1,0 +1,117 @@
+{
+  "source_product": "City Sample 5.8, Epic Games",
+  "source_assets_cc0": false,
+  "source_sharing": "Private project authorized collaborators only under applicable acquisition terms",
+  "license_urls": [
+    "https://www.fab.com/listings/4898e707-7855-404b-af0e-a505ee690e68",
+    "https://www.unrealengine.com/eula/content"
+  ],
+  "asset_count": 13,
+  "total_package_bytes": 86534720,
+  "source_assets_unchanged_recorded": true,
+  "assets": [
+    {
+      "source_package": "/Game/Prop/Kit_bench_RR/Texture/T_bench_C",
+      "source_sha256": "d9bc5f5e43d16d4bb0761629171253f17e0c0734a74378091c0478f83026b025",
+      "destination_package": "/Game/Aftershock/CitySample/Textures/T_Bench_C",
+      "class_name": "Texture2D",
+      "package_sha256": "1aafe6ff9383b2adfcba232b458d3a56707a311d3cc2a712a63fab3fdfdf9fad",
+      "package_bytes": 2538542
+    },
+    {
+      "source_package": "/Game/Prop/Kit_bench_RR/Texture/T_bench_N",
+      "source_sha256": "ca2df8097a1c248e2a771e28be01d8d1f633cfe585ba65a37fbe8b0c13809fca",
+      "destination_package": "/Game/Aftershock/CitySample/Textures/T_Bench_N",
+      "class_name": "Texture2D",
+      "package_sha256": "ae6c7d541a5087f86766be1de0324b47765d7422a6edcd00156301de0b3f4b2d",
+      "package_bytes": 2075134
+    },
+    {
+      "source_package": "/Game/Prop/Kit_bench_RR/Texture/T_bench_M",
+      "source_sha256": "72829abe1c3860423349eaa3614b120e9d1d6dfae9a8bc18072b7237b736cd78",
+      "destination_package": "/Game/Aftershock/CitySample/Textures/T_Bench_M",
+      "class_name": "Texture2D",
+      "package_sha256": "7441831e9478a47e7e107f9fb19f9036ee3d6988a86c127d5c92df0ac40787f6",
+      "package_bytes": 2283164
+    },
+    {
+      "source_package": "/Game/Prop/Kit_roof_brick_RR/Texture/T_roof_bricks_C",
+      "source_sha256": "82bfd3b0f6cfd135a7433e27c57a0a1e2cd6e6060fe59150a48961e28b11dab4",
+      "destination_package": "/Game/Aftershock/CitySample/Textures/T_Brick_C",
+      "class_name": "Texture2D",
+      "package_sha256": "fc0f84f5a5e5461190a8543078eb94be38a42d332de9646d68f93f2af90ba4f0",
+      "package_bytes": 5980897
+    },
+    {
+      "source_package": "/Game/Prop/Kit_roof_brick_RR/Texture/T_roof_bricks_N",
+      "source_sha256": "bfb3babefe04ee09d335fb369980dd690c3493f3ebb65f25ef147a9ce387afa9",
+      "destination_package": "/Game/Aftershock/CitySample/Textures/T_Brick_N",
+      "class_name": "Texture2D",
+      "package_sha256": "1a43a4ef2ba1c9f59e017212f87b28a69e8510b88eeef83688e63d31e99e4288",
+      "package_bytes": 10073398
+    },
+    {
+      "source_package": "/Game/Prop/Kit_roof_brick_RR/Texture/T_roof_bricks_M",
+      "source_sha256": "5b1f631ad82fcc1a6c665edd614418c6c66b639dbf8b5c2917d7170a3020028f",
+      "destination_package": "/Game/Aftershock/CitySample/Textures/T_Brick_M",
+      "class_name": "Texture2D",
+      "package_sha256": "671d48e6a389702a8ab510eb00e5cb7bb10c6d1198d2a88d1fb50dff8f00c125",
+      "package_bytes": 1506856
+    },
+    {
+      "source_package": "/Game/Building/Texture/ConcreteDirty/T_ConcreteDirty_C",
+      "source_sha256": "c27a67b94820293393cdaf3038d58cca3b86fcf3468a875637854521fbb76a86",
+      "destination_package": "/Game/Aftershock/CitySample/Textures/T_Concrete_C",
+      "class_name": "Texture2D",
+      "package_sha256": "f78d215c7a0e64c2b3df60258e05f93c697b96dfb33d7732d53d63fbce9af378",
+      "package_bytes": 28707570
+    },
+    {
+      "source_package": "/Game/Building/Texture/ConcreteDirty/T_ConcreteDirty_N",
+      "source_sha256": "e477387f5e7109e1203cd7522a40fc320943ff85e2d722c8c112745d076962d1",
+      "destination_package": "/Game/Aftershock/CitySample/Textures/T_Concrete_N",
+      "class_name": "Texture2D",
+      "package_sha256": "fee30ccac6e28681f52252bd6b1182bd19feaa2dce9c3fbd58246cac2f354032",
+      "package_bytes": 28230447
+    },
+    {
+      "source_package": "/Game/Prop/Kit_StreetLamp_B/Texture/T_StreetLamp_B_C",
+      "source_sha256": "e670cc2db59e75462193f1858a51ba526bc55dfc907adf05178dea4c33c154f3",
+      "destination_package": "/Game/Aftershock/CitySample/Textures/T_Lamp_C",
+      "class_name": "Texture2D",
+      "package_sha256": "96f69438a162ce3b3dd01cdd8ea6d9574d3ec51dbb4cfa7d02eb4755d9759c95",
+      "package_bytes": 2027119
+    },
+    {
+      "source_package": "/Game/Prop/Kit_bench_RR/Material/M_bench",
+      "source_sha256": "503a7ed98400533fed8fab3c0a614547a4ae2a90af45b7f73e2c222b2d61daff",
+      "destination_package": "/Game/Aftershock/CitySample/Materials/M_Bench",
+      "class_name": "Material",
+      "package_sha256": "15d2569e44689523c1bb7462e646153e7b9a3bd1e10da6a92d783efa44ef3e10",
+      "package_bytes": 7309
+    },
+    {
+      "destination_package": "/Game/Aftershock/CitySample/Materials/M_StreetLamp",
+      "class_name": "Material",
+      "package_sha256": "8357f62638eb756389e66c0c8dc71cb056ed6368b1c424ae8a5c1e2d7e569131",
+      "package_bytes": 5937
+    },
+    {
+      "source_package": "/Game/Prop/Kit_bench_RR/mesh/SM_street_bench",
+      "source_sha256": "f267b1169d8795e9b124319b0eca5c81630b9a8f686876302b5ecbec3bcee17f",
+      "destination_package": "/Game/Aftershock/CitySample/Meshes/SM_StreetBench",
+      "class_name": "StaticMesh",
+      "package_sha256": "caaf5984a13ed7d9f05858a46615ab12d09f45f35fba0bcd21b06f3705f0a431",
+      "package_bytes": 40497
+    },
+    {
+      "source_package": "/Game/Prop/Kit_StreetLamp_B/Mesh/SM_StreetLamp_B",
+      "source_sha256": "a97e05421a24b4781ae6989a6237f314b1a9b132974b8a2f4feb0e65e736a70a",
+      "destination_package": "/Game/Aftershock/CitySample/Meshes/SM_StreetLamp",
+      "class_name": "StaticMesh",
+      "package_sha256": "d7338551b96305c0b196999e699c8122cbe80aaadf158db0b5e15a909b652ffd",
+      "package_bytes": 3057850
+    }
+  ],
+  "scope": "Recorded acquisition/source inventory. No raw/native assets included; no independent entitlement,package or runtime claim."
+}

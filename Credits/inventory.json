@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "prepared_utc": "2026-10-18T12:41:55.452497+00:00",
+  "root_provided_source_ref": "9c3e576",
+  "scope": "Saved-only offline text/notice/provenance bundle. Actual source file hashes,not build/test/package or blanket legal acceptance. No raw media/native assets/private config/user saves.",
+  "entries": [
+    {
+      "destination": "licenses/Kenney-CityBuilder-Template-MIT.txt",
+      "sources": [
+        {
+          "source": "_staging/kenney/KENNEY_LICENSE.md",
+          "source_sha256": "c6ae166a6d687774c4ab86090efdb8f44e70797abd66413c3f56480837a68cf9",
+          "source_bytes": 1082
+        }
+      ],
+      "license_or_rights_basis": "MIT: template software; not the art licence",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 1082,
+      "sha256": "c6ae166a6d687774c4ab86090efdb8f44e70797abd66413c3f56480837a68cf9"
+    },
+    {
+      "destination": "licenses/Kenney-Platformer-Template-MIT.txt",
+      "sources": [
+        {
+          "source": "_staging/kenney/KENNEY_PLATFORMER_LICENSE.md",
+          "source_sha256": "4bc851d78e1efb66e408d8522dd3cc57f39b6c4393fa34be10e4ed745f081e4e",
+          "source_bytes": 1082
+        }
+      ],
+      "license_or_rights_basis": "MIT: template software; not the art licence",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 1082,
+      "sha256": "4bc851d78e1efb66e408d8522dd3cc57f39b6c4393fa34be10e4ed745f081e4e"
+    },
+    {
+      "destination": "licenses/Kenney-FPS-Template-MIT.txt",
+      "sources": [
+        {
+          "source": "_staging/kenney/KENNEY_FPS_LICENSE.md",
+          "source_sha256": "c6ae166a6d687774c4ab86090efdb8f44e70797abd66413c3f56480837a68cf9",
+          "source_bytes": 1082
+        }
+      ],
+      "license_or_rights_basis": "MIT: template software; not the art licence",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 1082,
+      "sha256": "c6ae166a6d687774c4ab86090efdb8f44e70797abd66413c3f56480837a68cf9"
+    },
+    {
+      "destination": "licenses/Bitstream-Vera.txt",
+      "sources": [
+        {
+          "source": "_Imports/Branding/MetuCyberStudios/fonts/bitstream-vera-license.txt",
+          "source_sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d",
+          "source_bytes": 5954
+        }
+      ],
+      "license_or_rights_basis": "Bitstream Vera font copyright and redistribution permission",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 5954,
+      "sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d"
+    },
+    {
+      "destination": "licenses/OSM-ODbL-1.0.html",
+      "sources": [
+        {
+          "source": "_Imports/Geography/RealTerrain/licenses/OSM-ODbL-1.0.html",
+          "source_sha256": "85bc21fb2c00b2effb9202b2aa785934ce5a05df954e17cbd2a1f7c10c04c633",
+          "source_bytes": 51543
+        }
+      ],
+      "license_or_rights_basis": "Open Data Commons ODbL1.0",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 51543,
+      "sha256": "85bc21fb2c00b2effb9202b2aa785934ce5a05df954e17cbd2a1f7c10c04c633"
+    },
+    {
+      "destination": "licenses/Mapzen-Terrain-Attribution.md",
+      "sources": [
+        {
+          "source": "_Imports/Geography/RealTerrain/licenses/Mapzen-terrain-attribution.md",
+          "source_sha256": "2ce4d3414b4592d17ad56a5af57feb480686ddcfb0a3e4ea0b566d28cde13567",
+          "source_bytes": 12300
+        }
+      ],
+      "license_or_rights_basis": "Master provider attribution list; each source retains its terms",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 12300,
+      "sha256": "2ce4d3414b4592d17ad56a5af57feb480686ddcfb0a3e4ea0b566d28cde13567"
+    },
+    {
+      "destination": "licenses/EOX-2016-Provider-Policy.html",
+      "sources": [
+        {
+          "source": "_Imports/Geography/RegionalImagery/Surround/provenance/eox-2016-license-policy.html",
+          "source_sha256": "0b28a191e8587f07598e2e0d2e5a6d6d1f2890e2c2129a81d9fc8d2fae7722f9",
+          "source_bytes": 39492
+        }
+      ],
+      "license_or_rights_basis": "Provider policy snapshot; explicit2016CC-BY4.0 exception only",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 39492,
+      "sha256": "0b28a191e8587f07598e2e0d2e5a6d6d1f2890e2c2129a81d9fc8d2fae7722f9"
+    },
+    {
+      "destination": "notices/Weather-Audio.txt",
+      "sources": [
+        {
+          "source": "Content/Aftershock/Audio/Generated/WEATHER_AUDIO_LICENSES.txt",
+          "source_sha256": "548eb91c3e3dda2b0c90ff815417e48861f8fcb891f0fb09c74ef5e4ff5298ba",
+          "source_bytes": 934
+        }
+      ],
+      "license_or_rights_basis": "Third-party audio CC0-1.0; original procedural audio separate",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 934,
+      "sha256": "548eb91c3e3dda2b0c90ff815417e48861f8fcb891f0fb09c74ef5e4ff5298ba"
+    },
+    {
+      "destination": "notices/OpenGameArt-Audio.txt",
+      "sources": [
+        {
+          "source": "_Imports/OpenGameArt/WeatherAudio/CREDITS.txt",
+          "source_sha256": "fe8c162d96ad3fcb0783220d33e6811ce13736ffdfd57acb4d2bc6dc57e72461",
+          "source_bytes": 764
+        }
+      ],
+      "license_or_rights_basis": "CC0-1.0",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 764,
+      "sha256": "fe8c162d96ad3fcb0783220d33e6811ce13736ffdfd57acb4d2bc6dc57e72461"
+    },
+    {
+      "destination": "notices/Global-Environment.txt",
+      "sources": [
+        {
+          "source": "_Imports/GlobalEnvironment/CREDITS.txt",
+          "source_sha256": "60e230b6e33319fc7b1d4be38e3d417bedd60fcef8409c5f43955ab58a8398be",
+          "source_bytes": 1348
+        }
+      ],
+      "license_or_rights_basis": "Poly Haven/ambientCG CC0-1.0 recorded sources",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 1348,
+      "sha256": "60e230b6e33319fc7b1d4be38e3d417bedd60fcef8409c5f43955ab58a8398be"
+    },
+    {
+      "destination": "notices/Road-Surface.txt",
+      "sources": [
+        {
+          "source": "_Imports/GlobalEnvironment/RoadSurface/CREDITS.txt",
+          "source_sha256": "387bf3b295e1863528c9b4d6cc92a794b9d67b3e71e0d4f61ddf133a18be3381",
+          "source_bytes": 453
+        }
+      ],
+      "license_or_rights_basis": "Poly Haven CC0-1.0",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 453,
+      "sha256": "387bf3b295e1863528c9b4d6cc92a794b9d67b3e71e0d4f61ddf133a18be3381"
+    },
+    {
+      "destination": "notices/Green-Meadow.txt",
+      "sources": [
+        {
+          "source": "_Imports/GlobalEnvironment/GreenMeadow/CREDITS.txt",
+          "source_sha256": "8ec9612775207555f4433752397ee74755ad251216cd659ff5fa48bde619e264",
+          "source_bytes": 370
+        }
+      ],
+      "license_or_rights_basis": "ambientCG CC0-1.0",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 370,
+      "sha256": "8ec9612775207555f4433752397ee74755ad251216cd659ff5fa48bde619e264"
+    },
+    {
+      "destination": "notices/Leafy-Grass.txt",
+      "sources": [
+        {
+          "source": "_Imports/PolyHaven/leafy_grass/CREDITS.txt",
+          "source_sha256": "b1b79edbc54e2023ef58ff66889e76e80344b9f60e3fa123d86b6669f4481557",
+          "source_bytes": 475
+        }
+      ],
+      "license_or_rights_basis": "Poly Haven CC0-1.0",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 475,
+      "sha256": "b1b79edbc54e2023ef58ff66889e76e80344b9f60e3fa123d86b6669f4481557"
+    },
+    {
+      "destination": "notices/City-Sample.md",
+      "sources": [
+        {
+          "source": "_Imports/Epic/CitySample/README.md",
+          "source_sha256": "5b346f615429a0e055044f7f140608a087021f0b432311e406bd709e5e67ec7c",
+          "source_bytes": 4013
+        }
+      ],
+      "license_or_rights_basis": "Licensed Epic content under applicable acquisition terms; not CC0/open-source",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 4013,
+      "sha256": "5b346f615429a0e055044f7f140608a087021f0b432311e406bd709e5e67ec7c"
+    },
+    {
+      "destination": "notices/Studio-Branding-Source.md",
+      "sources": [
+        {
+          "source": "_Imports/Branding/MetuCyberStudios/SOURCE_CREDIT.md",
+          "source_sha256": "3ac36d2c36d59e3e7721b43b9b93343f8c246b99398a4948365cf844d0099845",
+          "source_bytes": 3281
+        }
+      ],
+      "license_or_rights_basis": "Project-owner supplied/edit-authorized logo; no general trademark/public reuse grant",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 3281,
+      "sha256": "3ac36d2c36d59e3e7721b43b9b93343f8c246b99398a4948365cf844d0099845"
+    },
+    {
+      "destination": "provenance/Opening-Artwork.json",
+      "sources": [
+        {
+          "source": "_Imports/Original/Opening/SOURCE_ARTWORK.json",
+          "source_sha256": "a767b201fdea840c4a2d6cd1101ae5b8cddc5f15763f251e70501d073bd18db3",
+          "source_bytes": 417
+        }
+      ],
+      "license_or_rights_basis": "User-supplied project artwork; independent rights clearance not recorded",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 417,
+      "sha256": "a767b201fdea840c4a2d6cd1101ae5b8cddc5f15763f251e70501d073bd18db3"
+    },
+    {
+      "destination": "provenance/EOX-2016-License-Verification.json",
+      "sources": [
+        {
+          "source": "_Imports/Geography/RegionalImagery/Surround/LICENSE_VERIFICATION.json",
+          "source_sha256": "c107e471646e2b2a9bdcea59d5df4756f37db01e2f0ed24dbb2e1e9ecc8553ab",
+          "source_bytes": 1968
+        }
+      ],
+      "license_or_rights_basis": "CC-BY-4.0 recorded2016product; cached policy hash verified",
+      "mode": "unchanged_existing_text_or_public_policy_bytes",
+      "bytes": 1968,
+      "sha256": "c107e471646e2b2a9bdcea59d5df4756f37db01e2f0ed24dbb2e1e9ecc8553ab"
+    },
+    {
+      "destination": "provenance/Surface-Source-Records.json",
+      "sources": [
+        {
+          "source": "_Imports/PolyHaven/leafy_grass/SOURCE_LICENSE_MANIFEST.json",
+          "source_sha256": "c36000f17bfba66c37399d6f3cdaefbe3e56718188781d3935c0f5a4966c1f18",
+          "source_bytes": 3123
+        },
+        {
+          "source": "_Imports/PolyHaven/forrest_ground_01/SOURCE_LICENSE_MANIFEST.json",
+          "source_sha256": "1b0d72f34c3850f6fff466e704c598b64280f7be74d8df1a2f20072db7a19925",
+          "source_bytes": 2936
+        },
+        {
+          "source": "_Imports/PolyHaven/dry_ground_rocks/SOURCE_LICENSE_MANIFEST.json",
+          "source_sha256": "13b1bed843d21c48b4f744514bb1164ff431ba44a6a10623b12dc9be951ef403",
+          "source_bytes": 2808
+        },
+        {
+          "source": "_Imports/PolyHaven/aerial_rocks_01/SOURCE_LICENSE_MANIFEST.json",
+          "source_sha256": "2e84b6d675edcf7c2b9749a510623479e1c5014c6effd38b8ba6e97d2ac07b14",
+          "source_bytes": 2780
+        },
+        {
+          "source": "_Imports/GlobalEnvironment/SOURCE_MANIFEST.json",
+          "source_sha256": "b3f29f70f422bf3b3f85b97178e681256709758ea1e869af1dd4670a7d7388ee",
+          "source_bytes": 22386
+        },
+        {
+          "source": "_Imports/GlobalEnvironment/RoadSurface/SOURCE_MANIFEST.json",
+          "source_sha256": "2dbb99c62adf4fe30e4debeaf9acb6f59c49771a929a294de60dd3f555b0f915",
+          "source_bytes": 4049
+        },
+        {
+          "source": "_Imports/GlobalEnvironment/GreenMeadow/SOURCE_MANIFEST.json",
+          "source_sha256": "3b656ff9b0ee3936ccf812f35e3a77a0c534e70fbab71bfbbf8770eb738ce811",
+          "source_bytes": 5014
+        }
+      ],
+      "license_or_rights_basis": "CC0-1.0 as individually recorded; this file grants no extra rights",
+      "mode": "attribution_or_instruction_extract_no_runtime_acceptance_claim",
+      "bytes": 2758,
+      "sha256": "38bfde4e1ba2338ba0626ea26b6893aed3703db6b99237977fb9e1a02b43189b"
+    },
+    {
+      "destination": "provenance/City-Sample-Source-Inventory.json",
+      "sources": [
+        {
+          "source": "_Imports/Epic/CitySample/EXTRACTION_MANIFEST.json",
+          "source_sha256": "9801ba1be6eebbcc1881f56e3f5a111c4a77aed99a20ac2045543e4e059eb510",
+          "source_bytes": 9913
+        }
+      ],
+      "license_or_rights_basis": "Epic licensed content; applicable acquisition terms; not CC0",
+      "mode": "attribution_or_instruction_extract_no_runtime_acceptance_claim",
+      "bytes": 5820,
+      "sha256": "b6d12df28fd8610379956a7ac719b68896bce86c969a99e699820c2821c41d60"
+    },
+    {
+      "destination": "provenance/ElevenLabs-Record-Summary.json",
+      "sources": [
+        {
+          "source": "Content/Aftershock/Audio/ElevenLabs/AFTERSHOCK_SFX_MANIFEST.json",
+          "source_sha256": "b858e73fd83c3a5a29c278ba6a89aa53fc3e98430a11edc69fef6198bad1415a",
+          "source_bytes": 49923
+        }
+      ],
+      "license_or_rights_basis": "Usage rights/plan evidence not present in inspected generation manifest; not labelled CC0",
+      "mode": "attribution_or_instruction_extract_no_runtime_acceptance_claim",
+      "bytes": 485,
+      "sha256": "bbaac66937d39596d044b2a2816702c9adff6aca973bc3cbdb2b8892555019b0"
+    },
+    {
+      "destination": "provenance/Controls-Code-References.json",
+      "sources": [
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockSettingsSubsystem.cpp",
+          "source_sha256": "70919a4d103bf19ed9e3370d025522d03cd0774cff9869770f088d31d5fad5b1",
+          "source_bytes": 6086
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockCameraPawn.cpp",
+          "source_sha256": "77708f84a40c4c4bb0f13f03ddaeea158dc5bd0e7042c143df83efd2f53eecb4",
+          "source_bytes": 56930
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockCameraPawn.cpp",
+          "source_sha256": "77708f84a40c4c4bb0f13f03ddaeea158dc5bd0e7042c143df83efd2f53eecb4",
+          "source_bytes": 56930
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockSettingsWidget.cpp",
+          "source_sha256": "192d6ddea5d365b2089376f4d700b78a1221583e338bc8c3819b34debbe6b8b3",
+          "source_bytes": 34388
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockMainHUDWidget.cpp",
+          "source_sha256": "79da1f6438dbe6dae8256bfe78caf10fe3d68352ea3f06f9c3ef178b1228e042",
+          "source_bytes": 134172
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockOpeningWidget.cpp",
+          "source_sha256": "3cb7d0f34bd00fa9592cb7c15fe4cf79828d8e050bee4df5d261ff9d66895c36",
+          "source_bytes": 33415
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockSaveSubsystem.cpp",
+          "source_sha256": "024ce0eba030ac943cf4c9e59adf6bb7de20b348766c6fe14b48b42a6a6ba2e7",
+          "source_bytes": 111403
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Game/AftershockPlayerController.cpp",
+          "source_sha256": "0898ce778c94e046f2b7017698aa99a671864e734d39d29662c2fbd2adb39e98",
+          "source_bytes": 29754
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockDisasterDirectorSubsystem.cpp",
+          "source_sha256": "7a82e0a42c5843619ed6ba12cc2aee1659ff3e20538bc769bdacf154bf9aa45e",
+          "source_bytes": 11967
+        }
+      ],
+      "license_or_rights_basis": "Original project code documentation; no code binaries or source excerpts distributed",
+      "mode": "attribution_or_instruction_extract_no_runtime_acceptance_claim",
+      "bytes": 2737,
+      "sha256": "dba4bcd2b92083c07cb7092ae6371e3ceb499a7ddfb728901e05e2cd6086fbeb"
+    },
+    {
+      "destination": "notices/Kenney-Art-CC0-Statement.txt",
+      "sources": [
+        {
+          "source": "_staging/kenney/KENNEY_README.md",
+          "source_sha256": "d6d560b67f3ce4156c48961747aecb81f412d1d1949d8c2f137ad6d142f48eeb",
+          "source_bytes": 3423
+        }
+      ],
+      "license_or_rights_basis": "CC0-1.0 for listed art/audio,as stated in the existing upstream README",
+      "mode": "attribution_or_instruction_extract_no_runtime_acceptance_claim",
+      "bytes": 414,
+      "sha256": "fb70154583e83d384bbd1b153bfa495ba62ffeddbb4eff5f0216b486f28c9dda"
+    },
+    {
+      "destination": "CREDITS.md",
+      "sources": [
+        {
+          "source": "docs/CREDITS.md",
+          "source_sha256": "088fd6e17b868a8a3e05fd52ae92873725c558272bd52525ad16e5318db512e6",
+          "source_bytes": 26338
+        },
+        {
+          "source": "_Imports/GlobalEnvironment/CREDITS.txt",
+          "source_sha256": "60e230b6e33319fc7b1d4be38e3d417bedd60fcef8409c5f43955ab58a8398be",
+          "source_bytes": 1348
+        },
+        {
+          "source": "_Imports/GlobalEnvironment/RoadSurface/CREDITS.txt",
+          "source_sha256": "387bf3b295e1863528c9b4d6cc92a794b9d67b3e71e0d4f61ddf133a18be3381",
+          "source_bytes": 453
+        },
+        {
+          "source": "_Imports/Geography/SOURCE_LICENSE_MANIFEST.json",
+          "source_sha256": "826a3cc5b9c5de4951f091eb393c8065ecb1caf8de945ce411347cfd639492c2",
+          "source_bytes": 76061
+        },
+        {
+          "source": "_Imports/Geography/RegionalEnvironment/README.md",
+          "source_sha256": "2d1249e432ae30748d3eaae3ce434c5863028b2d1021c984f7c4d4277aafd612",
+          "source_bytes": 7967
+        },
+        {
+          "source": "_Imports/Geography/RegionalImagery/Surround/LICENSE_VERIFICATION.json",
+          "source_sha256": "c107e471646e2b2a9bdcea59d5df4756f37db01e2f0ed24dbb2e1e9ecc8553ab",
+          "source_bytes": 1968
+        },
+        {
+          "source": "_Imports/Epic/CitySample/README.md",
+          "source_sha256": "5b346f615429a0e055044f7f140608a087021f0b432311e406bd709e5e67ec7c",
+          "source_bytes": 4013
+        },
+        {
+          "source": "_Imports/Branding/MetuCyberStudios/SOURCE_CREDIT.md",
+          "source_sha256": "3ac36d2c36d59e3e7721b43b9b93343f8c246b99398a4948365cf844d0099845",
+          "source_bytes": 3281
+        },
+        {
+          "source": "Content/Aftershock/Audio/ElevenLabs/AFTERSHOCK_SFX_MANIFEST.json",
+          "source_sha256": "b858e73fd83c3a5a29c278ba6a89aa53fc3e98430a11edc69fef6198bad1415a",
+          "source_bytes": 49923
+        }
+      ],
+      "license_or_rights_basis": "Attribution extract; each named source retains its own licence; no blanket CC0 grant",
+      "mode": "attribution_or_instruction_extract_no_runtime_acceptance_claim",
+      "bytes": 6416,
+      "sha256": "b16de87ae04a0bc670d21dd03b688f44e8d62ee70da75a7e293ab46af3907138"
+    },
+    {
+      "destination": "README_TR.txt",
+      "sources": [
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockSettingsSubsystem.cpp",
+          "source_sha256": "70919a4d103bf19ed9e3370d025522d03cd0774cff9869770f088d31d5fad5b1",
+          "source_bytes": 6086
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockCameraPawn.cpp",
+          "source_sha256": "77708f84a40c4c4bb0f13f03ddaeea158dc5bd0e7042c143df83efd2f53eecb4",
+          "source_bytes": 56930
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockCameraPawn.cpp",
+          "source_sha256": "77708f84a40c4c4bb0f13f03ddaeea158dc5bd0e7042c143df83efd2f53eecb4",
+          "source_bytes": 56930
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockSettingsWidget.cpp",
+          "source_sha256": "192d6ddea5d365b2089376f4d700b78a1221583e338bc8c3819b34debbe6b8b3",
+          "source_bytes": 34388
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockMainHUDWidget.cpp",
+          "source_sha256": "79da1f6438dbe6dae8256bfe78caf10fe3d68352ea3f06f9c3ef178b1228e042",
+          "source_bytes": 134172
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockOpeningWidget.cpp",
+          "source_sha256": "3cb7d0f34bd00fa9592cb7c15fe4cf79828d8e050bee4df5d261ff9d66895c36",
+          "source_bytes": 33415
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockSaveSubsystem.cpp",
+          "source_sha256": "024ce0eba030ac943cf4c9e59adf6bb7de20b348766c6fe14b48b42a6a6ba2e7",
+          "source_bytes": 111403
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Game/AftershockPlayerController.cpp",
+          "source_sha256": "0898ce778c94e046f2b7017698aa99a671864e734d39d29662c2fbd2adb39e98",
+          "source_bytes": 29754
+        },
+        {
+          "source": "Source/JamProject/Aftershock/Private/AftershockDisasterDirectorSubsystem.cpp",
+          "source_sha256": "7a82e0a42c5843619ed6ba12cc2aee1659ff3e20538bc769bdacf154bf9aa45e",
+          "source_bytes": 11967
+        }
+      ],
+      "license_or_rights_basis": "Original player-instruction template based on code; not runtime acceptance",
+      "mode": "attribution_or_instruction_extract_no_runtime_acceptance_claim",
+      "bytes": 3984,
+      "sha256": "d475c577eba6a7e3818b58def992ad1a93d6a9d4bac2e74fc09133e868b72c7c"
+    },
+    {
+      "destination": "LISANS_BOSLUKLARI_TR.txt",
+      "sources": [
+        {
+          "source": "docs/CREDITS.md",
+          "source_sha256": "088fd6e17b868a8a3e05fd52ae92873725c558272bd52525ad16e5318db512e6",
+          "source_bytes": 26338
+        },
+        {
+          "source": "_Imports/GlobalEnvironment/CREDITS.txt",
+          "source_sha256": "60e230b6e33319fc7b1d4be38e3d417bedd60fcef8409c5f43955ab58a8398be",
+          "source_bytes": 1348
+        },
+        {
+          "source": "_Imports/GlobalEnvironment/RoadSurface/CREDITS.txt",
+          "source_sha256": "387bf3b295e1863528c9b4d6cc92a794b9d67b3e71e0d4f61ddf133a18be3381",
+          "source_bytes": 453
+        },
+        {
+          "source": "_Imports/Geography/SOURCE_LICENSE_MANIFEST.json",
+          "source_sha256": "826a3cc5b9c5de4951f091eb393c8065ecb1caf8de945ce411347cfd639492c2",
+          "source_bytes": 76061
+        },
+        {
+          "source": "_Imports/Geography/RegionalEnvironment/README.md",
+          "source_sha256": "2d1249e432ae30748d3eaae3ce434c5863028b2d1021c984f7c4d4277aafd612",
+          "source_bytes": 7967
+        },
+        {
+          "source": "_Imports/Geography/RegionalImagery/Surround/LICENSE_VERIFICATION.json",
+          "source_sha256": "c107e471646e2b2a9bdcea59d5df4756f37db01e2f0ed24dbb2e1e9ecc8553ab",
+          "source_bytes": 1968
+        },
+        {
+          "source": "_Imports/Epic/CitySample/README.md",
+          "source_sha256": "5b346f615429a0e055044f7f140608a087021f0b432311e406bd709e5e67ec7c",
+          "source_bytes": 4013
+        },
+        {
+          "source": "_Imports/Branding/MetuCyberStudios/SOURCE_CREDIT.md",
+          "source_sha256": "3ac36d2c36d59e3e7721b43b9b93343f8c246b99398a4948365cf844d0099845",
+          "source_bytes": 3281
+        },
+        {
+          "source": "Content/Aftershock/Audio/ElevenLabs/AFTERSHOCK_SFX_MANIFEST.json",
+          "source_sha256": "b858e73fd83c3a5a29c278ba6a89aa53fc3e98430a11edc69fef6198bad1415a",
+          "source_bytes": 49923
+        }
+      ],
+      "license_or_rights_basis": "Recorded evidence limits; not a licence grant or legal-clearance certificate",
+      "mode": "attribution_or_instruction_extract_no_runtime_acceptance_claim",
+      "bytes": 2233,
+      "sha256": "51639a4f9d36edc99d935b45459995ec8d9fa7bd5eaa13cc471d1fdb67639c4c"
+    }
+  ],
+  "payload_count_excluding_inventory_and_checksums": 25
+}

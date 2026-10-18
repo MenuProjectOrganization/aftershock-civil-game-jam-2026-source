@@ -1,0 +1,9 @@
+AFTERSHOCK global art sources
+Powered by Poly Haven
+This source asset: CC0-1.0; https://polyhaven.com/license
+Exact original URLs, API MD5 verification, SHA256 and physical tile scale: SOURCE_MANIFEST.json
+
+Asphalt 02 by Rob Tuytel — https://polyhaven.com/a/asphalt_02
+
+No displacement, AO, preview renders, model archives or copyrighted website text downloaded.
+Use only as visual surface sources; not scientific soil/material property measurements.

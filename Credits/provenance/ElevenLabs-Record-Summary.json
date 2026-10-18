@@ -1,0 +1,11 @@
+{
+  "generator": "ElevenLabs text_to_sound_v2",
+  "generated_at": "2026-10-17T15:07:37Z",
+  "declared_total_assets": 73,
+  "manifest_asset_rows": 73,
+  "directory_wav_files": 93,
+  "directory_uasset_files": 93,
+  "licensing_fields_present": [],
+  "distribution_entitlement_independently_verified": false,
+  "scope": "Counts and generation record only.73-row legacy manifest is not complete93-file provenance or a distribution licence. No raw audio,prompts or account data included."
+}

@@ -1,0 +1,43 @@
+{
+  "provider": "EOX IT Services GmbH",
+  "product": "EOxCloudless2016 historical composite",
+  "product_year": 2016,
+  "source_years": [
+    2016,
+    2017
+  ],
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "required_attribution": "EOxCloudless https://cloudless.eox.at by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016 & 2017)",
+  "official_license_policy": {
+    "url": "https://cloudless.eox.at/license-non-commercial",
+    "retrieved_utc": "2026-10-18T00:33:04.406216+00:00",
+    "bytes": 39492,
+    "sha256": "0b28a191e8587f07598e2e0d2e5a6d6d1f2890e2c2129a81d9fc8d2fae7722f9",
+    "content_type": "text/html; charset=utf-8",
+    "etag": "\"2aac905465909cf63a9a524df4a469b448d12437b143724c570b34ff6f979328\"",
+    "last_modified": "Thu, 15 Oct 2026 08:11:20 GMT",
+    "cached": true
+  },
+  "wms_capabilities": {
+    "url": "https://tiles.maps.eox.at/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities",
+    "retrieved_utc": "2026-10-18T00:33:05.665890+00:00",
+    "bytes": 70534,
+    "sha256": "a08c184825d8254d8851cdf25b30923a4d3e24368bc4736bfadfbd462033d606",
+    "content_type": "text/xml",
+    "etag": null,
+    "last_modified": null,
+    "cached": true
+  },
+  "layer": {
+    "name": "s2cloudless",
+    "title": "Sentinel-2 cloudless layer for 2016 by EOX - 4326",
+    "abstract": "EOxCloudless https://cloudless.eox.at by EOX IT Services GmbH (Contains modified Copernicus Sentinel data 2016) released under <a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.",
+    "wms_version": "1.1.1",
+    "output_crs": "EPSG:4326",
+    "source_advertised_srs": [
+      "EPSG:4326"
+    ]
+  },
+  "qualification": "2016explicitCCBY4exception.2018andnewerNCcommerciallicences are not used. Historical visually balanced true-colour composite, not current imagery, measured PBR albedo or guaranteed cloud-free pixels."
+}

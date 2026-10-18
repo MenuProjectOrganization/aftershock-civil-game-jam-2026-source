@@ -1,0 +1,14 @@
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Content/
+_Imports/
+_refs/
+*.sav
+*.pdb
+*.log
+__pycache__/
+.env
+*.pfx
+*.pem

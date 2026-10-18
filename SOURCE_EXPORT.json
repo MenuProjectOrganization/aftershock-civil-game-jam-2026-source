@@ -1,0 +1,2489 @@
+{
+  "schema_version": 1,
+  "exported_utc": "2026-10-18T14:20:17.917966+00:00",
+  "packaged_source_sha": "d6a6da0243e326ef46d5755f79edc8092a7f425b",
+  "original_development_repository": "https://github.com/MenuProjectOrganization/civil-game-jam-2026",
+  "scope": "Exact tracked project Source and Config plus project descriptor/build file and text-based authoring/validation scripts. No private development history, engine implementation, user saves, generated config, raw media or binary assets.",
+  "all_tracked_source_files_present": true,
+  "source_file_count": 378,
+  "files": [
+    {
+      "path": "Aftershock.Build.cs",
+      "bytes": 37,
+      "sha256": "1846c67a25e5c3c3e6e4391676ec63dbd73e04c4b8260f7dc74e053ae52e95a2"
+    },
+    {
+      "path": "Config/DefaultEditor.ini",
+      "bytes": 255,
+      "sha256": "d2e3aeb56fe082cf8d7215b479de4a8389ec723e9df713266fcec68de2cc2c89"
+    },
+    {
+      "path": "Config/DefaultEditorPerProjectUserSettings.ini",
+      "bytes": 71,
+      "sha256": "721e2d60ff67464d39e5987fcd923be4929a917ee2c97ce2a1ca8aabc58e9ce6"
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "bytes": 3325,
+      "sha256": "d12e868adc2f1b08e6c59bae2c8bf270de8091c27db8584430be85c336f72005"
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "bytes": 1326,
+      "sha256": "5404b08073e3e2fc6e835fb2aa85a65174bee9f66aef9934554466cc67ac1c49"
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "bytes": 8959,
+      "sha256": "4dffc0cd6b704125e9093b7c7da0b5e1ea7fe63d0d71b227985c85446ec93717"
+    },
+    {
+      "path": "Config/DefaultScalability.ini",
+      "bytes": 569,
+      "sha256": "fd09fb2f889436d9d729e7d0fdc7b268b06e7796f6b6a85796bf4115bbe10480"
+    },
+    {
+      "path": "JamProject.uproject",
+      "bytes": 642,
+      "sha256": "e83a609f0a993b9c841ca58a8a9b7fcb170bcc96a175dcd2eab780d41963893e"
+    },
+    {
+      "path": "Source/Aftershock",
+      "bytes": 21,
+      "sha256": "ce605f7183dd54bc09c914fc5da594ab60cad4ef83bc50fa87ac2114f3796535"
+    },
+    {
+      "path": "Source/JamProject.Target.cs",
+      "bytes": 413,
+      "sha256": "2aede0f454b4cc27c041653c0d50c61579434e70e261a6c22c8a632425c3e90c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Buildings/BuildingActor.cpp",
+      "bytes": 13969,
+      "sha256": "e97a8a05d642d5058a7ea83fb81b05bc3347c3cd103aa7aa73e2412decd5fa7f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Buildings/BuildingActor.h",
+      "bytes": 8264,
+      "sha256": "6ae8549e583e2c266148d52f1324fe7b8c87ba73497d0cd6c11bd428ace4a48f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Buildings/BuildingData.h",
+      "bytes": 140,
+      "sha256": "c41d722f4dc82d106d73342ec123886d5b13a990909ac7a8c8e3dfd1802f9073"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Citizens/CitizenInstanceManager.cpp",
+      "bytes": 2051,
+      "sha256": "53efcb28b6cdf90c7011e0511b7ede549464616712b411551885a32e3d43b65d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Citizens/CitizenInstanceManager.h",
+      "bytes": 2259,
+      "sha256": "521ebc0ddf9ceac819b90c1826405fa52e4bffd771bbff188c2321401020ea95"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Data/BuildingData.cpp",
+      "bytes": 177,
+      "sha256": "d8ae2913969aee144281164c08958942c28709faa8cc8a2da960c95906fae040"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Data/BuildingData.h",
+      "bytes": 152,
+      "sha256": "9f91bfc98a836aa80c2c80bd17621116f92a9a674a4b9754bf40a56264e0e944"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Data/DisasterData.h",
+      "bytes": 2255,
+      "sha256": "00e9dda0ea58884b3cffff15e3353f96e308eb51a62b9a56a3499384fe05a308"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Game/AftershockGameMode.cpp",
+      "bytes": 6916,
+      "sha256": "b51a7b374d6d67a70663d5946aee70aff62162a3c01ddc4f730c5272774631df"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Game/AftershockGameMode.h",
+      "bytes": 2991,
+      "sha256": "f8d6004d3a10c076bcb8b000b3d1f8b7dde84011d4fdeec0fe160a9b38c10d06"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Game/AftershockGameState.cpp",
+      "bytes": 4032,
+      "sha256": "d66fa6d35b90a1a3ac6e3e556c8d4f93f638b29d81fe9affa755caab71a6d6ee"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Game/AftershockGameState.h",
+      "bytes": 4163,
+      "sha256": "2fd39559387a2324a5c5c4122d91c1bc6ffbd564850027dce84b7c1184596fb4"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Game/AftershockPlayerController.cpp",
+      "bytes": 29754,
+      "sha256": "0898ce778c94e046f2b7017698aa99a671864e734d39d29662c2fbd2adb39e98"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Game/AftershockPlayerController.h",
+      "bytes": 5696,
+      "sha256": "bde90a5a1e0ea4f89526a84cc4456f937d37d55a1052c85a90f6f7c20bf7bb98"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Narrative/AftershockCasualtyLedgerAuditCommandlet.cpp",
+      "bytes": 27630,
+      "sha256": "9150a91ce5806b9390879be66e4fa29cf87ea985a5ebc9756b8061b9f9f1935f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Narrative/AftershockCasualtyLedgerAuditCommandlet.h",
+      "bytes": 368,
+      "sha256": "f8f927cb07fb4f73d97ba5cdb12b07d4d50c69efbae594850112fe3c61d76bf1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Narrative/CasualtyLedgerGenerator.cpp",
+      "bytes": 26758,
+      "sha256": "95541d17cef94cf41823efa116230e6899ea4943556fe717d738703a9ae1c8a9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Narrative/CasualtyLedgerGenerator.h",
+      "bytes": 9012,
+      "sha256": "312d410f80bf61b92d6392c8bef53f3bdf3abf67ca6fcd406e2f0dfe711f1f46"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockAdditionalGeographicFocus.inl",
+      "bytes": 494,
+      "sha256": "3099f74608f38beaba82f33bd17a87b970648e337764409596a356b1cdbc242e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockArchitecturalAudit.h",
+      "bytes": 1527,
+      "sha256": "cb7bfbd575db1dcab7e598d71fc2005f0d2412cd6eae91a617fe3adee1197433"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockArchitecturalRecipe.cpp",
+      "bytes": 19521,
+      "sha256": "2b6b474639e91fb7828e38f5072e8e11164604ef0c34c0165abbba33f8081d9e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockArchitecturalRecipe.h",
+      "bytes": 3809,
+      "sha256": "7a72fe8a994789e0eadd0e2f3b4567393c7ae461734687c05399e6a37e36d3a6"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockArchitecturalRenderer.cpp",
+      "bytes": 33614,
+      "sha256": "e62067eecbeef27c8c50b117b52e06eb1497be9db7079d83e7bd94e57cce09d9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockArchitecturalRenderer.h",
+      "bytes": 5275,
+      "sha256": "d13c3e953e0313522c6067c1efc4c3eedf9d9fea5e7a76d79efce8bca93ec86d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockAudioPerspective.cpp",
+      "bytes": 3155,
+      "sha256": "45262fae89a1227ccacdff147c27c43effc87ad5eb570d25d084905a1e4d24e0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockAudioSubsystem.cpp",
+      "bytes": 21541,
+      "sha256": "ece2e4720c8fc00be9faa04d023114d1f9d0b4ecb0b1c4c01981600f7f5f5fd2"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockAutomaticRoadAccessAuditCommandlet.cpp",
+      "bytes": 18961,
+      "sha256": "3c70ca5e6241fcaf297edad368e30285fa736b68227f96c8f47cf7c61ddc1a68"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockAutomaticRoadAccessAuditCommandlet.h",
+      "bytes": 1090,
+      "sha256": "af685708c4d208321e1d947f2b255207b5e3d42101065ec433017cc612bc3460"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockBridgeAuditCommandlet.cpp",
+      "bytes": 21582,
+      "sha256": "83ace5b8e93e404a08789a4777fbfae3a56fd861b26842b653d34a6c415663c2"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockBridgeAuditCommandlet.h",
+      "bytes": 617,
+      "sha256": "8651baddef4979d8354f36f7b66f0d9c2380824100f57fbd1a7d228f061c9749"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockBridgeRuntimeAudit.cpp",
+      "bytes": 18677,
+      "sha256": "c7219b8af7c38cf99aa9bc347ada5576c205be1f51e6beffe66b6272b77ba99e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockBridgeRuntimeAudit.h",
+      "bytes": 378,
+      "sha256": "c42b798c621dd15101bde28210cc6690a57c8208484f9a09b3371f497681d6f5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockBuildingCatalog.cpp",
+      "bytes": 10674,
+      "sha256": "e8714747d7c1385e4f38b9f425e591715d23ea8c36cec28b206c8bd375ed3599"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCameraPawn.cpp",
+      "bytes": 58198,
+      "sha256": "0585e57e0ec705102dda527f586b36fa3a2f739c064f1d14b90ff332c3e6c979"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockChunkAuditCommandlet.cpp",
+      "bytes": 14254,
+      "sha256": "fed3f341bf107fa51544569ac77c2fc66cbaea2bf4c5bf95c1186798f31a1733"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockChunkAuditCommandlet.h",
+      "bytes": 432,
+      "sha256": "d61585f1fa39e461e8d7dda43b1b7b9daa9ab4f80b22e7fa6f5eaf15eeafb3a0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockChunkRuntimeAudit.cpp",
+      "bytes": 25405,
+      "sha256": "4f545e2b32d856d420f2f7c80599b66a2d38f5dcf82a587ac936f1b4f4f575de"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockChunkRuntimeAudit.h",
+      "bytes": 367,
+      "sha256": "82e2c3c3418c6caf34961a970a25b0685a953945807b9eb121e1790ea22e102d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockChunkSaveAuditCommandlet.cpp",
+      "bytes": 46424,
+      "sha256": "679eba0e0a950d3f729bfb8a18406c9abebe5801eb2d5d13649693f662280218"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockChunkSaveAuditCommandlet.h",
+      "bytes": 348,
+      "sha256": "af62f624f826999a3c4e62bc0fb3796e106006912bc54567bb55f4f55178f7bd"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCitizenPlanningCommandlet.cpp",
+      "bytes": 11556,
+      "sha256": "8d71736bd3187153d8f9111e6b0abcedcb614ca6be853399e285522d633474a8"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCitizenPlanningCommandlet.h",
+      "bytes": 408,
+      "sha256": "b18421777c2605e051a243d0f0582d47ccc2f9e5bd0de918bb5f112ac17ce883"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCityGenerationAuditCommandlet.cpp",
+      "bytes": 17699,
+      "sha256": "9a2d44247a21a9af81c4a1809aef5e13f6e77e1b80570882906f8d82d6972fe4"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCityGenerationAuditCommandlet.h",
+      "bytes": 361,
+      "sha256": "a1c95c53a71c9e7c5a27e7b54a5d82bb86a989e54cd2e09e8c8204707fdbee24"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCityLifeAuditCommandlet.cpp",
+      "bytes": 28208,
+      "sha256": "1c279cc2f2b848ea2bc2a226d2f8de135a0715db2ba117ea2c00ec21de059de9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCityLifeAuditCommandlet.h",
+      "bytes": 438,
+      "sha256": "00db1e16315b884858982361e21074e31e55bd667efd2ec94296c5f7f2d31c07"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCityLifeRuntimeAudit.cpp",
+      "bytes": 10029,
+      "sha256": "aad923d4f9f8119cdadcd530bd522328e63eed71cb21bf1462e80053aa316f42"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCityLifeRuntimeAudit.h",
+      "bytes": 173,
+      "sha256": "2d11d466b34e386832627bdfc17bd5d5f0d7cb5a72a1c15828e0df6dfd5849f1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCitySampleAuditCommandlet.cpp",
+      "bytes": 4551,
+      "sha256": "bfee895b66d9b129f2abeef3a947c084f31539692d9e5e4b35dfd139299f81a3"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCitySampleAuditCommandlet.h",
+      "bytes": 349,
+      "sha256": "539fb2917052f8bfdfd787864e47534add3c8ee00656e6aebeffbb2c21b34896"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCityScaleAuditCommandlet.cpp",
+      "bytes": 9856,
+      "sha256": "85ebed764a58d6f094b028136fb892c831d6b6a0a78e2536319de3e06a3b41c7"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCityScaleAuditCommandlet.h",
+      "bytes": 346,
+      "sha256": "968dd20bc305316d5da14a608262015ab5956c13ffe698e620fc7e7d4edc83c6"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCoastalInfrastructureAuditCommandlet.cpp",
+      "bytes": 18226,
+      "sha256": "595e54b54de10acd947ff8afa9ca576848547104e0b0fa6705a4080263bedd98"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCoastalInfrastructureAuditCommandlet.h",
+      "bytes": 941,
+      "sha256": "38b49ea60887d8052093f927c0b02104863ddd6c0d8663b1f3255b603643622e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockConformingRoads.cpp",
+      "bytes": 17047,
+      "sha256": "e96ac9df08b933e169a33cc447096d5f945c15db003076159acc6dab669ecdef"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockConformingRoads.h",
+      "bytes": 1552,
+      "sha256": "576f1f7b97a063ab888e5138c5f63fa9c498696e9a2ea07bc05c6d41630a56f3"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCrowdProfileCommandlet.cpp",
+      "bytes": 10091,
+      "sha256": "15a6651a708c39a0fc9aea55672899d20d4cfffd8d329e1834e31380b0ca3fff"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCrowdProfileCommandlet.h",
+      "bytes": 405,
+      "sha256": "60eaab03e221b385a24efd44a14d28eca84601d132a78e041e147bee46f906af"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCrowdSpacingAuditCommandlet.cpp",
+      "bytes": 59669,
+      "sha256": "a50f45429aa9bb54964428e079e4f6147496d62e953aec8175bc1787cdcdaec5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockCrowdSpacingAuditCommandlet.h",
+      "bytes": 469,
+      "sha256": "690d8ed533c64f591cdff9fe59bfddb29fe011c3ae9c54c8ce6fbad1c2728055"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockDisasterDirectorSubsystem.cpp",
+      "bytes": 12282,
+      "sha256": "15cb98a78cddd30b15cfd428a47a1727afc66e309b84a9861090ca695341aa49"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentAuditCommandlet.cpp",
+      "bytes": 30036,
+      "sha256": "c13b5c8ea499558cb4a040178aa0ded29a08ff5e11e99b4ca067a38bba3ad6d9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentAuditCommandlet.h",
+      "bytes": 344,
+      "sha256": "2d72670ce5e0637fd840aa0ad7ce70e0f87a63536c4c345e3e2256e94e0f7cfb"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentDressing.cpp",
+      "bytes": 35630,
+      "sha256": "53d7c73a1af1f989b16fee1d8c47a43e08770696da83a8bd679729e7544989fb"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentDressing.h",
+      "bytes": 2474,
+      "sha256": "5f6de152b54eac7cbdb671cd63ee96a0a30718dbd4058ecfa984a6ac34d7efdf"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentFrameReadback.cpp",
+      "bytes": 6457,
+      "sha256": "6ed372f3f2ed4fa9b37f81e79d860887440293338211510fef6dede056b9e332"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentFrameReadback.h",
+      "bytes": 221,
+      "sha256": "f74980c465e4b82e98e10b693af6583bd72fce0c7608e9705f95404ec3cce768"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentQuality.cpp",
+      "bytes": 3938,
+      "sha256": "146b5dde5e636c2064977b42b9f185c3f4cbec97cb613de9885a5e85129117bb"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentQuality.h",
+      "bytes": 1552,
+      "sha256": "712e6fd1bae2e03ef2cba89d25826a4f5712799118022b9b13f04c66e4817bd0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentSurfaces.cpp",
+      "bytes": 3924,
+      "sha256": "dd3aef8ed68baddc10bfabd3077c5571e62bbcfbf84f688582bf6868d82627f6"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentSurfaces.h",
+      "bytes": 179,
+      "sha256": "bb5482d379fe0828dea2f566e5888586e844d91a61b0abed5aa68405ca4d6de8"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentTangentRepair.cpp",
+      "bytes": 13490,
+      "sha256": "6c8c7616587f2ef254edeeeeeb15db58c020543ed3f6fde37174789c8af8e1ec"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockEnvironmentTangentRepair.h",
+      "bytes": 211,
+      "sha256": "69b3b76fb795ee4f1fdc823558f600de86d63944ed8d752bbabb8128cd2850b1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFireRuntimeAudit.cpp",
+      "bytes": 27786,
+      "sha256": "c0b4a3e4c3e684ce65eab9a8c468206aadf45e8ed4ae9a815b7be4d21d74400b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFireRuntimeAudit.h",
+      "bytes": 565,
+      "sha256": "55288d68eb423183e9a12e9c7d1f7f8a9ad949fc0ab64e08f7275eaef430cf17"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFireVisualAuditCommandlet.cpp",
+      "bytes": 16359,
+      "sha256": "c3b45befed5027ca595e03e1fbda4bc5039adbecd753455dbfa805a5b9176873"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFireVisualAuditCommandlet.h",
+      "bytes": 421,
+      "sha256": "bdd60bd4353a7a25219b68c7deebaf7c48e332e98f8501adba21a915ba47c07f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFloodVisualAuditCommandlet.cpp",
+      "bytes": 18872,
+      "sha256": "859f6360b4c3a51c5f9622c892b8e0ba2c3ac0e795b304c88a68e32a49f8aab0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFloodVisualAuditCommandlet.h",
+      "bytes": 462,
+      "sha256": "4f457748f9f7c664495aafeda96d44dfa548bf889cf0926b006968e0695e51fd"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFractureSetupCommandlet.cpp",
+      "bytes": 13481,
+      "sha256": "ff46861301487b0e1159f4187626a6c985553c3896cbb018a72f737b48b74bb4"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFractureSetupCommandlet.h",
+      "bytes": 537,
+      "sha256": "ceaa49943e57b9e26cfcdcaa6b71f97dff38a6a890eb4e281cdd5658971819cf"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFxSetupCommandlet.cpp",
+      "bytes": 8835,
+      "sha256": "3cda8805fa528c0fc2a311314b362a8662ea7e5bc66880513d2f4947ed66e4e3"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockFxSetupCommandlet.h",
+      "bytes": 384,
+      "sha256": "1800d98c678559e0c55206c5f8aa49f7897c0b296588d8532a963d8d4873f860"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockGeographicHazardsAuditCommandlet.cpp",
+      "bytes": 36208,
+      "sha256": "186f4a781e47fd802159104e1f49357f750c7f4f33797c6950fe80fa5b940c3c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockGeographicHazardsAuditCommandlet.h",
+      "bytes": 445,
+      "sha256": "8769bc3455331f17b35e3631e9fa3ba9a3163a702f689e3855d5374a00ab1ae2"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockGeography.cpp",
+      "bytes": 28344,
+      "sha256": "4d8253256818da554737e4278f6c0ba097d295b97ec2c268cea7cd1e97caa757"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockGlobeSurface.cpp",
+      "bytes": 46841,
+      "sha256": "ccc2ee7040d34fe0fe53122c6cb990b38d80bf25b8864812ad3ba5d242b6de44"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockGlobeSurface.h",
+      "bytes": 1856,
+      "sha256": "a1c7f2ad3c657d6b48f95444bfe3eda2cf3a42f19a75101501a9342ae9935504"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHUDInputAuditCommandlet.cpp",
+      "bytes": 33253,
+      "sha256": "46a5d754e032ad3544cd42493666b5c5982f4a6d17fd7725bf5a76bd66de7ee2"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHUDInputAuditCommandlet.h",
+      "bytes": 452,
+      "sha256": "a3a456b7439622fabff530bf611fd9b7367168aee1a89a28bdbc182f9eeee246"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicGroundInstallAudit.cpp",
+      "bytes": 8360,
+      "sha256": "5b20ae8e38ac30b14cec0402ad795f32d10ebffb8d14b8377a09bd1fe89f9863"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicObstructions.cpp",
+      "bytes": 18065,
+      "sha256": "e58e5288290f3ba01e462a9553bda51d0aae1a58076c270373e803a4008ed4b2"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicObstructions.h",
+      "bytes": 4473,
+      "sha256": "ff1d60124794e89190f20d6f07424fe63ca9b5b891239029deb10750e29fcecb"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicObstructionsReferenceTests.cpp",
+      "bytes": 9359,
+      "sha256": "12b3ef196857c287cae2371aa80cac4ea3b039eae1ccfac1077d6db895ad5941"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicObstructionsReferenceTests.h",
+      "bytes": 252,
+      "sha256": "7a2db420137ee829253b7f75b2bb40b401a687a33225a2729e964e17bd86abda"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicRuntimeAudit.cpp",
+      "bytes": 37851,
+      "sha256": "1f65fc68b0d6b44792520593cd651bf31ab387f94defa7c8add5256490ffe29b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicRuntimeAudit.h",
+      "bytes": 584,
+      "sha256": "75c2a6f938583655b3cbb8a07dad06743ec5ad7b8ff9a2e14ce168f453aee80b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicSurfaceActor.cpp",
+      "bytes": 28665,
+      "sha256": "7c4a375b3e600657932fbf9287c93c54c8daa48b01956c75ebc08fef663349b0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicSurfaceActor.h",
+      "bytes": 5213,
+      "sha256": "cc4ef3629b22327b1145f09e7c91e2b357401abde4bc835c2034d0f630d6bcda"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicTerrain.cpp",
+      "bytes": 25557,
+      "sha256": "123fdd100f4f3957625d374dc57603a85ab7cad5cd3e94a73d0513ae4aee6b43"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicTerrain.h",
+      "bytes": 5745,
+      "sha256": "a2bd5cf5cd5e1aff9ff0273564ddafe59eaa2087a174e8ccf8995ccc54e1b9d7"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicTerrainReferenceTests.cpp",
+      "bytes": 25562,
+      "sha256": "61c0b16f20311b70ab578ffa4349ddc2a2d5a5284a74f6611bebd8dda308afdc"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydraulicTerrainReferenceTests.h",
+      "bytes": 894,
+      "sha256": "8700031f996ad3df1730aef441d7a983dd4fa267b1c010ac76ec0001952dbfa6"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydrologyAsyncStepper.cpp",
+      "bytes": 30486,
+      "sha256": "abd1417cba4f55fd643a8322e229dc4fcc18bdde13368dfd5aa699b48861bcdf"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydrologyAsyncStepper.h",
+      "bytes": 8694,
+      "sha256": "73aef5e9386574d1fcc63237882c421351111f25434313f6e313a7e5e20b08a4"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydrologyAsyncStepperReferenceTests.cpp",
+      "bytes": 32335,
+      "sha256": "a5ac622bc177a6de19fdf3fc138d170ec55ea97fe1a2dac00fe6e8493a9d2d2e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydrologyAsyncStepperReferenceTests.h",
+      "bytes": 413,
+      "sha256": "cd5c43b1509c615ea7db902ac78820335c0796a020386af801326e153c2d9e1d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydrologySolver.cpp",
+      "bytes": 36767,
+      "sha256": "bdacae3cd89e9b09241fd15588ca2cf97216fc916314ddbe669f9ba1d3eca117"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydrologySolver.h",
+      "bytes": 8635,
+      "sha256": "228f6db9927f2e31068fddde2c870d53410d2030ac62e6ca8d560ca8c97dd0de"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydrologySolverReferenceTests.cpp",
+      "bytes": 28575,
+      "sha256": "ea0ba2a47918987818f535b86d323b275d0f24c0bd4d454ab76fda9cbab7f171"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockHydrologySolverReferenceTests.h",
+      "bytes": 436,
+      "sha256": "40f1d93cd3a64351319928d7f228fd69dce2640e1c22426fdb596b2049a75c3b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockIncrementalNormalRoutes.cpp",
+      "bytes": 10484,
+      "sha256": "7b3557f59b49c92979aee920e36b18d93e774cee13de79644b8ab7a5a6d8cb8f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockIncrementalNormalRoutes.h",
+      "bytes": 3669,
+      "sha256": "502c40c214a1077797e2500626e32c34bec6700356695a646fb4420f8af6a8ff"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacySettlementPlanner.cpp",
+      "bytes": 15261,
+      "sha256": "9f3418f9808e72499674e2ff70547ac62541f9814c76b370d49bb92ed6604a33"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4Converter.cpp",
+      "bytes": 8705,
+      "sha256": "f37b4d70f9fba6f796dc448d024e666baf20c4a88bc7e8eb921044200150cd4e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4Converter.h",
+      "bytes": 514,
+      "sha256": "3eaef27aedf8998bf048d56141675f9fea181f214b0d44b1862b9e25a69a1a49"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4GoldenAudit.cpp",
+      "bytes": 8465,
+      "sha256": "0043e2b04cb37a4fd5041e00b503fce4b6a359f8eec040a3788823025cccdfda"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4GoldenAudit.h",
+      "bytes": 291,
+      "sha256": "feac6ed99dfd26e4f93efec5cb31f6d538b74fbc447ca4c7cea61ce0f17335f5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4Reader.cpp",
+      "bytes": 14155,
+      "sha256": "3c0f4d90140f70cfb97949be3c8a5319fefc567e9bea5d1a9f03a2b659725386"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4Reader.h",
+      "bytes": 772,
+      "sha256": "e164ba5e67a8cddec4a0455e61eed38c43faac8dfd6f51034566d79dcfce765a"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4Schema.cpp",
+      "bytes": 10735,
+      "sha256": "6cc051b852376a95f6e938244c7533e0b1226274578766c0061cb31e99e8e492"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4Schema.h",
+      "bytes": 1079,
+      "sha256": "e360abda958b68990e36892ebe4cc12408f3db79fb5cfcfe6e5536d60d48f2d9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4SchemaData.cpp",
+      "bytes": 175242,
+      "sha256": "b914109f1797e4fb3bfcc8ee241082e004530b62f3f08bf6e5ecba94513165e9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockLegacyV4Types.h",
+      "bytes": 26166,
+      "sha256": "7d3b90c5b11aef6d27f2e91aab49441def187ea217bb44021898a3561b230df0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMainHUDWidget.cpp",
+      "bytes": 135353,
+      "sha256": "4a047cefa83fd17e384f4c9d18d24c8ab6c8aec4c547f36af16fb89d9a69ff19"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassMovement.cpp",
+      "bytes": 46576,
+      "sha256": "7916b4a4005603add3e679cbc6bf04a368f4378b69f850aa2f0ab6b33dd46eb9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassMovement.h",
+      "bytes": 8105,
+      "sha256": "874852446aab3aaa385012b6569ed33c1e1f0090b75dd5b591867d689ffc9e41"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassMovementAudit.cpp",
+      "bytes": 22637,
+      "sha256": "999a357649ce2487f173503d90f8ae7f1c93c584b9d8c647a7236290e27329b4"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassMovementAudit.h",
+      "bytes": 203,
+      "sha256": "573cb6932606b1b8fd0b3eb83abfa26a330fec3566aae6206bb6ff9e26e52cac"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassMovementTerrain.cpp",
+      "bytes": 41580,
+      "sha256": "bf4f2ddf3bc0b5ae6d595c5b2f34bae36021fd55ad867d8ebb7c06632a693766"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassMovementTerrain.h",
+      "bytes": 8010,
+      "sha256": "da20ab1ac9c56cc697d3cce6f1f63317052b1d761d9e19089b5e6d2c3cf932a9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassMovementVisual.cpp",
+      "bytes": 29464,
+      "sha256": "a19a27a6bebc713412ed9f7a84a3d35e611a2122e50d880ac932448e8892e9d5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassMovementVisual.h",
+      "bytes": 5066,
+      "sha256": "96d760ec2b5fc4ed1728838752b23c044e4fa72150cc85d5050cdb3004677b00"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassSparseFieldAudit.cpp",
+      "bytes": 14520,
+      "sha256": "50b17ab5529f2255fdcbb1e141bd827bfa02cb243cfbaab387b63a62bf0db8b6"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassSparseFieldAudit.h",
+      "bytes": 1024,
+      "sha256": "afefcd9c4244325542fe98ab2dfb966acd9cf58e8256e6936dfbb9a6f93369d1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassSupportPreparation.h",
+      "bytes": 3640,
+      "sha256": "59a3421d549ddef9bbe4beb710491b5acc15ff1f8c8548c428a059d48fdc405f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMassSupportPreparationAudit.cpp",
+      "bytes": 8300,
+      "sha256": "7b176d789041ae63825f73130ec763eab3bb05b24e08fec82e851bcb5bfcedfa"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMaterialExtensionAudit.cpp",
+      "bytes": 15164,
+      "sha256": "0cbcdd301f4328d783b1479357fba9493fb526d6aab6e9a84d570457484f698d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMunicipalAuditCommandlet.cpp",
+      "bytes": 21175,
+      "sha256": "71b8ca335dbc15271242d8a228c56edd68c09b621fd5105d326e2558317d273d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMunicipalAuditCommandlet.h",
+      "bytes": 416,
+      "sha256": "dfa9a171f2e6bbfd01be72415887700bf7c718d54b69025e58b70bb6bbe1e6e9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMutationSoakCommandlet.cpp",
+      "bytes": 8387,
+      "sha256": "2d59f8f2f293fbd9035157fb8537270c291f8f1c61858ff60575029473871bff"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockMutationSoakCommandlet.h",
+      "bytes": 323,
+      "sha256": "712b29fe0c08867a08ca08f0990dd5eb3574a2f5f82b26a2771a84084e624b1c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockNarrativeRuntimeAudit.cpp",
+      "bytes": 21146,
+      "sha256": "388c904a6e0f625e27a76e8008cc7b8e2779fa0d5371f6a4a3c44ade9ae0eabc"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockNarrativeRuntimeAudit.h",
+      "bytes": 268,
+      "sha256": "0420bd9a6e1aab2e46ce0b1bc3f28333f936ba6ef4f01e67095ca34722adbbc0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockNativeFacadeTangentRepair.cpp",
+      "bytes": 22141,
+      "sha256": "e434dea5d2877142271c4f6c15cf251ace476a0b63dbf971714ed141b4be8d39"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockNativeFacadeTangentRepair.h",
+      "bytes": 199,
+      "sha256": "db16ba97e92c1175b76ac7d0c85384887d71d542cd28bda22df01d8fe06eab72"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockOfflineElevation.inl",
+      "bytes": 16717,
+      "sha256": "288375aed2299dfc450c2546e198aa2fdae91af0268f33cd8280c577c0a763e5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockOfflineGeographicDetail.inl",
+      "bytes": 11839570,
+      "sha256": "2507266ec0a8eade8043958ed59c97371a9bd4365a2426753d84e2a51a40951f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockOfflineGeographicTiles.inl",
+      "bytes": 16288468,
+      "sha256": "ca45d8a4dad3a798ec71cba5a382d2001730f3500d4bc9018a3eb2581c07f87d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockOfflineMonthlyClimate.inl",
+      "bytes": 9660,
+      "sha256": "61b1c3edebada2ee40f555005c950ffb416a01100d6cb1c1ae8117a6aa7559d7"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockOfflineRegionalOverview.inl",
+      "bytes": 4577961,
+      "sha256": "000660a6c774fdf7e0c0173775bf36f37c6cb6fa9c95eebdf5c6de29510d2fd9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockOpeningWidget.cpp",
+      "bytes": 33838,
+      "sha256": "2726d18e19d1eeb176c99f2e716084e964383c95c675c5eeb6f01cade09c43a4"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalHazardAudit.cpp",
+      "bytes": 33622,
+      "sha256": "d4448724076e12a1cc9cb66fc71bae89dd3e5be91f15f2a02bc9bddeb4429b6a"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalHazardAudit.h",
+      "bytes": 209,
+      "sha256": "415ee50a44e151137eeddb213dbc5371aa49e7eab269d499c0c569609ec75f9e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalHazards.cpp",
+      "bytes": 94093,
+      "sha256": "ff10763cb97daf4786abb32316183322c5c89ab3c9a1d2f570173045aa0367c7"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalHazardsAuditCommandlet.cpp",
+      "bytes": 37117,
+      "sha256": "0bd02df700512b5592255bcd197327cbf75c70f663ab008f994c3b7b76e96f92"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalHazardsAuditCommandlet.h",
+      "bytes": 458,
+      "sha256": "a04fba91a7b383befc48298295d48899fa039fe8fc1dc97b6c21311a3d6d1bf1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalLifecycle.h",
+      "bytes": 5917,
+      "sha256": "84ed273e26b73375db88b04b5db616d5f2f0f4f974dd6e7f65bcf5f117013745"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalLifecycleAudit.cpp",
+      "bytes": 13300,
+      "sha256": "26142a29d23745e911855218532111cd9fc2652aac3464971a235cdabf190862"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalReplay.cpp",
+      "bytes": 23480,
+      "sha256": "9cc401e5b6ef7ba7f70733c851e27683e84616d010256467b4ddf13852c135cd"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalReplay.h",
+      "bytes": 451,
+      "sha256": "efe9dd29a1185c0c2b9b30e3d380a0cc05366ce43821ef274d43a78a4746fc94"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalReplayAudit.cpp",
+      "bytes": 16049,
+      "sha256": "14be57096edbeaa61a3ac24a101a951883e07a6548145b784d87bd36dceaa20f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPhysicalReplayAudit.h",
+      "bytes": 209,
+      "sha256": "53970904493f81a8d2a221ec2c3df782408af8dceea4a1a0369b95ddb5f4fa82"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPlayableAuditCommandlet.cpp",
+      "bytes": 38912,
+      "sha256": "e3cfd84f78190409d1f08834085ca8e1ff9e1f13280126be6735018fea8b1eae"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPlayableAuditCommandlet.h",
+      "bytes": 410,
+      "sha256": "618bb007a17cfabdf7ece9cb48dd72939cb5074714f5b042c421027d944dc1d9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPresentationAudit.cpp",
+      "bytes": 191311,
+      "sha256": "37b67f873843d07fcb8b48699e6a1e69c19a9070fde68d1b3d6073dd3d7e554e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPresentationAudit.h",
+      "bytes": 171,
+      "sha256": "5ae9ab795dd263d1ec5d0a6513523710350180d802194e36412db95344b7933f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPresentationBudget.cpp",
+      "bytes": 2046,
+      "sha256": "eb37c2808d3fa8d64eb14a7c3db22e5025e4e2da3688de5a8f9641551187bfbb"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPresentationBudget.h",
+      "bytes": 1159,
+      "sha256": "7cd3ee3706f62dac000f6381303aaa4388d32f67f017fc4ff40d6416460b233b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPresentationBudgetAuditCommandlet.cpp",
+      "bytes": 16497,
+      "sha256": "ace6bd38fb2de9ed221ac1f4998d65476f9d32ec464eb167088a2004115963a1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPresentationBudgetAuditCommandlet.h",
+      "bytes": 377,
+      "sha256": "a225f2901c23c6b3eccb19005648a42f98f7bf4cbf141512ddbb97311083dcaf"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPresentationPerformanceAuditCommandlet.cpp",
+      "bytes": 52888,
+      "sha256": "4acd414686a6ce58c7f7de8f6b9b321e4bdaf14b1daa28598eeefad34b8936f0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockPresentationPerformanceAuditCommandlet.h",
+      "bytes": 364,
+      "sha256": "4deaf4cdd9c795e0d994788a7d7f1929c09775127a3108275437e5b49b10997c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRealGeographyAuditCommandlet.cpp",
+      "bytes": 10442,
+      "sha256": "43e6060f35db90ed30efb203febe394822fce908d67b45c3041ffb2fcec5a7bb"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRealGeographyAuditCommandlet.h",
+      "bytes": 467,
+      "sha256": "1d45820da4fac36259fa57cea708da16f059552a01dc7e10b3d6f24f09a41871"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionCatalog.inl",
+      "bytes": 16793,
+      "sha256": "10726727e057cb33a53ae653f2f05cf9b6a588e8b031e4e6fa37b4d1da37deb8"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionCatalogAuditCommandlet.cpp",
+      "bytes": 11200,
+      "sha256": "04570e89c7e3172e449e202c3aa17fe4d52a0d666e5954a7451416731537cf8a"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionCatalogAuditCommandlet.h",
+      "bytes": 483,
+      "sha256": "d6e74615d92eb7427aa35ec8bd04049dcf4786a93ad93aa324754234d1c048fb"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionEnvironmentProfile.cpp",
+      "bytes": 8666,
+      "sha256": "8959ff22d98ddbd3a5b5dd7e2aa25995a80ee13d9079fb476fd1b29cd5be8e13"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionRules.cpp",
+      "bytes": 2001,
+      "sha256": "edf5ac1895618e12ee0565677c937d8fd2ee6e57454e3caef6dd7cfb3be04e06"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionSettlementAuditCommandlet.cpp",
+      "bytes": 25928,
+      "sha256": "e2c2d952821b6b83b87e507f0ad4316ce1e2cbcb74d3dda85ed05c211b0ace5e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionSettlementAuditCommandlet.h",
+      "bytes": 480,
+      "sha256": "7041819d82bdbe8016ff72bc7f8e46adaa3794bbbc300fca345863123546020f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionalEnvironmentAuditCommandlet.cpp",
+      "bytes": 15947,
+      "sha256": "1213810b39575d59d199fac328e925541c37811fd4d290aa558059288c552ded"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionalEnvironmentAuditCommandlet.h",
+      "bytes": 479,
+      "sha256": "c94d299b81248b45a43db81e32ed97eaf55d268f45720645bc59c66c5e20f266"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionalSurfaceStyle.cpp",
+      "bytes": 22889,
+      "sha256": "b52546def30a6fbaa47729c661c95785a8fb65eb0e0cbcb7b4a6b8e8f7d055f5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRegionalSurfaceStyle.h",
+      "bytes": 906,
+      "sha256": "1e630574b0c7a43758be93c983c4f1e27537a7f37f1599608453c27babf24b7d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRoadCpuScope.h",
+      "bytes": 2389,
+      "sha256": "5935633a19bcc9adcc3fbc095ea6b99c8fb92772a0960d6b12616c1686b29a17"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRubblePersistence.cpp",
+      "bytes": 9134,
+      "sha256": "4c0afa4ab91ade5cc1c08cfbf650a1b66d578013cd63aaab5a87f118ae1bbc8c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRubblePersistenceAuditCommandlet.cpp",
+      "bytes": 19541,
+      "sha256": "fb0f1fbe8b370a342b6396371d2fd81d3025f1005ac39025a472fb1d24b07aa3"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRubblePersistenceAuditCommandlet.h",
+      "bytes": 738,
+      "sha256": "ffccd4b7f7c10ec9b0f225527d23c706844b7924e829045d1a8ae270f406a10f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRubbleRuntimeAudit.cpp",
+      "bytes": 8319,
+      "sha256": "51db21adfd216a0640efd7c7cc1f974fa5357bc2f75ddcbde9127c854ee1a71c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRubbleRuntimeAudit.h",
+      "bytes": 353,
+      "sha256": "73fbe837f5221d801ac3332a978c7a2f11f4986eca58afa6b3b4d36ef8483ce3"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockRuntimeMeshUV.h",
+      "bytes": 3305,
+      "sha256": "6a63468d4e9141cd0ed1cec3125d53c20a5fc2c00de46b97c5a85a00df5da530"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSaveBinarySchema.cpp",
+      "bytes": 8133,
+      "sha256": "36ab6965eb747b607eb5c5eb796392d60e6abc90fc960e3abcd8a1de70dbe728"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSaveBinarySchema.h",
+      "bytes": 1261,
+      "sha256": "5044b87bed177ece8065630a2114b250d85d64485a2fa7a45505aea5d9963233"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSaveCodecAuditCommandlet.cpp",
+      "bytes": 40105,
+      "sha256": "3af9d785dfcd489b1938f5591e823a8aebb78b3a0ac517ac7051a9800c017288"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSaveCodecAuditCommandlet.h",
+      "bytes": 346,
+      "sha256": "59b396e6c80a164d22a7efcbc89cca081bad98d864776028e1258d04d64dc23b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSaveOwners.cpp",
+      "bytes": 12917,
+      "sha256": "f69b63201e4c3559ac04806097d0722d159d05f339ff8727b924920cde906978"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSaveSubsystem.cpp",
+      "bytes": 111403,
+      "sha256": "024ce0eba030ac943cf4c9e59adf6bb7de20b348766c6fe14b48b42a6a6ba2e7"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockScaledChaos.cpp",
+      "bytes": 26066,
+      "sha256": "303ce32535f34f3a5ef54c368b5567183514a696b64c2804fd1b9c64c948aa5b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockScenarioAuditCommandlet.cpp",
+      "bytes": 35541,
+      "sha256": "c7b2a8c6038f7e7b0fc58870077f0cd032f733a982a2ad741d2123d1a03ecde1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockScenarioAuditCommandlet.h",
+      "bytes": 454,
+      "sha256": "334c5b6ec1cce6d44e1fd270be46cb7076a2ba84e020c656d281d5c9b4b55b5c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockScenarioSubsystem.cpp",
+      "bytes": 52788,
+      "sha256": "4fe8485d9fe6e5aae89560e7e0cf1732740d510f6802bd4011f6b9da7e762d1e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSession.cpp",
+      "bytes": 4843,
+      "sha256": "64ecc8af8f43e9feb3ad7b2d55f98d06562929478c51a1083dbfca5753186503"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSessionSaveAuditCommandlet.cpp",
+      "bytes": 90336,
+      "sha256": "d63e60d8af01ef3d2460c9a0edb67beb7195bd9bb4fff53de72d1903e4a30e3c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSessionSaveAuditCommandlet.h",
+      "bytes": 350,
+      "sha256": "6b4ed976746d580d58acd47a98ec100e0b3615de2a20251d9c2a1b17a94a8eed"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettingsAuditCommandlet.cpp",
+      "bytes": 15742,
+      "sha256": "f20d255cf7ad574ea2b43e1203dbbd937135ece1def98c3b74dbdd3968436e76"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettingsAuditCommandlet.h",
+      "bytes": 436,
+      "sha256": "acd31427a3ea10deed6c01a4fb7aa6b0949ed122614714389644027a254ac24b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettingsMenuRuntimeAudit.cpp",
+      "bytes": 12564,
+      "sha256": "cb04a58dc91a9a9d20a5811b44fb9bd1857af9692b86f78f3dfeb35f1850d3b5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettingsMenuRuntimeAudit.h",
+      "bytes": 224,
+      "sha256": "92080a84ab4e0701ab2b8dfc59cdd1dac714eddaa60a54d89c7ea4bfc1c21e48"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettingsSubsystem.cpp",
+      "bytes": 6193,
+      "sha256": "f6ef2b17dd900d462039e0df7e9d087e7ff8ccbfab1ca72b50d6afd49be7d555"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettingsWidget.cpp",
+      "bytes": 34721,
+      "sha256": "a86e82627c019769a456b384069b79c9b94de79e7ec598dad71ca7c0256a9d71"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettlementMorphology.cpp",
+      "bytes": 6446,
+      "sha256": "26a7782f20baba4fbf5bc6e352bd0241f41acc98601c849878e2346c8fdbbb4c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettlementMorphology.h",
+      "bytes": 1574,
+      "sha256": "96b796effacb12ee70cfc57733b4931c5a4b005d752c05674e9e32cf4ebdcf31"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettlementPlanner.cpp",
+      "bytes": 17340,
+      "sha256": "55cc36ddb678f3d73b0efc18988449251e1c8b08be10f52c62d8f89646d6d11b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockSettlementPlanner.h",
+      "bytes": 879,
+      "sha256": "232a8804263546add81dd5a6c23ad93eedcf284a70523a1d16f6f106fef9c090"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockStartupLoadingWidget.cpp",
+      "bytes": 7589,
+      "sha256": "ebba7cea1908927f136aab53652b26ffbfe31a89c2c27da9b02207080c745a25"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockStartupMaterialPreparation.h",
+      "bytes": 10475,
+      "sha256": "cffcbe29bfc750ab768a61667fccc829084a9aceb37e253f50635d8a7d0a097c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockStartupPreparationSubsystem.cpp",
+      "bytes": 31671,
+      "sha256": "40b690c6b42a7d349ca64f5ad25d125310b5dfa4259dd63fcbf4203a2e765458"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockTerrainSurface.cpp",
+      "bytes": 81777,
+      "sha256": "ebf56f1e3b99364fe51ec8a707e60d7afdfb04e281c3829450a1b430d8d6a4e6"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockTerrainSurface.h",
+      "bytes": 5295,
+      "sha256": "ae4918f1522b4f6bd41fb65440c103186917072705aa7cb507e0ba9ecb736e3d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockTransportAuditCommandlet.cpp",
+      "bytes": 86680,
+      "sha256": "ddc981e5a55a9d3f8d0645e3331d7cf7ad6b684d1aadafb315e55e8248b9de96"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/AftershockTransportAuditCommandlet.h",
+      "bytes": 407,
+      "sha256": "ddf3c6b51bbff0bd19b1e8eddbe6a5a56794de3e01692455f7688b0025c72c5c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/BuildingManagerArchitecturalBinding.cpp",
+      "bytes": 9234,
+      "sha256": "cdb194979f3e503a2c4df39b9c32847634d2d9c5ed652b81ef087d785686b839"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/BuildingManagerSubsystem.cpp",
+      "bytes": 63528,
+      "sha256": "605febc107245b09828623bda25ba61d29ffdfb17f103aa066118759c304f2a2"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/CityLifeSubsystem.cpp",
+      "bytes": 43738,
+      "sha256": "2a807d1378120d5b874b4fbaa907084626ffb6b998c78d77bfea6503526a3de0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/CityPresentationSubsystem.cpp",
+      "bytes": 59701,
+      "sha256": "91de087334d16e5ff3101fec2193240a5d139855ccadc464193d3cbb944e48c1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/CoastalPresentationSubsystem.cpp",
+      "bytes": 12391,
+      "sha256": "a4c5632ad2b48c8d9a90aff3b43bc861d8892501fa79dd42d1a957ec5f91c4d5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/CrowdRenderSubsystem.cpp",
+      "bytes": 185155,
+      "sha256": "4e3163d5797c4b68d721627f407adc1eb3cebe48e436525a50cfb9b3b56fb38c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/DisasterAudioBridgeSubsystem.cpp",
+      "bytes": 22430,
+      "sha256": "bfd8d30ee462a1d16f8f8f4d932a1f7f20dcac538a5d5aa703f637a998a0b6e9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/DisasterPresentationSubsystem.cpp",
+      "bytes": 111909,
+      "sha256": "ead6cd018445b5ea7f76fc10b205f894861c452708609223efdcce19f0d25d55"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/DisasterSimulationSubsystem.cpp",
+      "bytes": 110011,
+      "sha256": "f3a8e8991a35d6fbb8c9e83555eceb2e899fc80611c65c85c48f2c97d9827e4a"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/EconomyAndStateSubsystem.cpp",
+      "bytes": 17437,
+      "sha256": "3b09f8d4bd22da63f815f2d41f8295fcc72953a2167c8d2cc4ccfca1afefd774"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/RoadNetworkSubsystem.cpp",
+      "bytes": 32041,
+      "sha256": "0b3e719898d66f6424df5025bba16884a425401091393d1c0510d204b0f2633b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/TerrainGridSubsystem.cpp",
+      "bytes": 76232,
+      "sha256": "e630f0989e88c3b4841cfb84a4e6aacfd23da69f87bd9b3463389ed61eb80da8"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/TransportSubsystem.cpp",
+      "bytes": 104341,
+      "sha256": "168a431a57a54db183e4c29ce7ccf8dcd41e570b0ecd569973ac27d61aa9781e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Private/WorldClimateSubsystem.cpp",
+      "bytes": 3519,
+      "sha256": "b5193401db2d94a69e2663499eee012d4694b764e47530789c301898400003a8"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockAudioPerspective.h",
+      "bytes": 764,
+      "sha256": "e2188b04547b169ec4c714d5e5a766154fc4e955a62a6bb7333a6e1f938bb9c2"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockAudioSubsystem.h",
+      "bytes": 7809,
+      "sha256": "a6214b033e3957d728dc06f6d6468cf3b2b1eccd6f794d70e9cff69732a430c5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockBuildingCatalog.h",
+      "bytes": 536,
+      "sha256": "2d2d040b8a45966276971b07b2d20cfe9e20d2edbcdb4eb5704690f0cf367d1b"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockCameraPawn.h",
+      "bytes": 11608,
+      "sha256": "66f6e0f39124c6a7dc0afb230b3cfb006e87bcb00c6fe005dd618b8716f0e788"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockDisasterDirectorSubsystem.h",
+      "bytes": 1483,
+      "sha256": "092f0bf810b6950a245c0c61b0e260a76538194f3856b53136d6d5673db3d36f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockGeography.h",
+      "bytes": 6367,
+      "sha256": "aabbe5756041f1123309ec4bc063909239ada5b6ab28e076e82bb0faaf872032"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockMainHUDWidget.h",
+      "bytes": 27940,
+      "sha256": "05474997191ef673e75cd8423f59ac15c6bc529ee5eb6eace4de2c8142c2033d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockOpeningWidget.h",
+      "bytes": 4874,
+      "sha256": "c793b124909b5737459661773373a7f517263c0aa6606ed786d7736918d4f0f4"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockPhysicalHazardState.h",
+      "bytes": 5788,
+      "sha256": "a4a0c37781c9dd0d5871443d1f3dafd89a1434f9a3a13070133a9b5890c8cc00"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockRegionEnvironmentProfile.h",
+      "bytes": 1790,
+      "sha256": "fb688fbdfb9f237bbc7c56a77e4ab61f18b28363831ae208733fcda9e119fba8"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockRegionRules.h",
+      "bytes": 2682,
+      "sha256": "afa2d0461c1dce99ffccc51392312d6622ee7cb189273e53813636c2e0ab12ca"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockSaveGame.h",
+      "bytes": 1551,
+      "sha256": "1e2803121ee9eb8e127d15145b8b2865b6f2594ada1a958f791095a27db8acf6"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockSaveSubsystem.h",
+      "bytes": 4058,
+      "sha256": "7b626a5c8a6b06a6564dce82aebbef9d5e4b389338bcc97d8de76f077ccb0f97"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockSaveTypes.h",
+      "bytes": 5866,
+      "sha256": "bd7ae26bd6f6dac5296e234e3486906fbaecf0c42a4a8b853b8bc100bb26edba"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockScaledChaos.h",
+      "bytes": 1572,
+      "sha256": "27e226bb8bcfd271b96a5ae63185ded739e0a4195aa164105cbd2dce7bd7d3a0"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockScenarioSubsystem.h",
+      "bytes": 4625,
+      "sha256": "ea8785d16d2c384deacac148940e19f2719ccc8fbdc543676f58181fde150b74"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockSessionTypes.h",
+      "bytes": 1736,
+      "sha256": "16b5992fc1ef3f7f6bc816f3d76ab980b5b1eae56b21ef58e170ae3de5fb11ac"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockSettingsSubsystem.h",
+      "bytes": 1818,
+      "sha256": "afde5995da64bb14ece968349e79e0b51be5f5a735ac3211097f2379746be178"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockSettingsWidget.h",
+      "bytes": 4763,
+      "sha256": "06368f87e262d421af52d780e0bfaf6750842b7a4ea1a0249ac91162797e7f53"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockSoundCatalog.h",
+      "bytes": 18590,
+      "sha256": "eead96e7abeabc0b42373a099e2666d1a15e1152c88e1e18213ae558458d5b64"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockStartupLoadingWidget.h",
+      "bytes": 1523,
+      "sha256": "e8ab0506c822535019846735a63ef38559fdd3034791a02f6e7d96710af91080"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/AftershockStartupPreparationSubsystem.h",
+      "bytes": 3121,
+      "sha256": "bbe5cc493cab80fe5d99fe2a397d3bad8a82f2fdbff48b832adf9450e1a09fbe"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/BuildingData.h",
+      "bytes": 13700,
+      "sha256": "39b29b3d95168f1e05cadba1e50db6bfa1b2eb8626a15d92ff79dfff8035e0ae"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/BuildingManagerSubsystem.h",
+      "bytes": 12426,
+      "sha256": "3268f9ad4465fd28b22febb6b739b9c8386f73343a61a8f55541be9f5529cc7c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/CityLifeSubsystem.h",
+      "bytes": 9098,
+      "sha256": "fc50a6ff1a1e6fd6995af272717fe62737b6c759903925bc99dd22488947715a"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/CityPresentationSubsystem.h",
+      "bytes": 6212,
+      "sha256": "b9025d0b92f46e505f5505cff1ff4130541a93621cf49e51a8964ea70ad7c2bd"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/CoastalPresentationSubsystem.h",
+      "bytes": 1852,
+      "sha256": "2af063be466854776df23b054739811ae20cafc21471e1f0372f7f431b17644f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/CrowdRenderSubsystem.h",
+      "bytes": 25398,
+      "sha256": "5454f8fe59768b30e866d8dd2e8c9e87c9370699ef6a0b20915e8f0acac9c8a1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/DisasterAudioBridgeSubsystem.h",
+      "bytes": 2196,
+      "sha256": "cc67ec0b94325f4a9ba55b07cf030ddbaa484bf18895aa662158bac51eb1be88"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/DisasterPresentationSubsystem.h",
+      "bytes": 12446,
+      "sha256": "049d452bba53f8be368b623444cb7f03feab06a1faa8d0e86192cd97b19e0e73"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/DisasterSimulationSubsystem.h",
+      "bytes": 18500,
+      "sha256": "e4e2600e42f94e1a9bfb185b61581abe852fd7d848f0b89a837c7417ee4c56a9"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/EconomyAndStateSubsystem.h",
+      "bytes": 6824,
+      "sha256": "ac938e36ef4a16f42a57102f7cfcb1f87dfae2a7faecf8b1377f9fdde121fb34"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/RoadNetworkSubsystem.h",
+      "bytes": 5621,
+      "sha256": "72ad9232f26013df8e9950dd61c1858bc459f0b5d8c2ac46c62fccfd5058a2bb"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/TerrainGridSubsystem.h",
+      "bytes": 22213,
+      "sha256": "e5ec21d523c77004710a921db953264883564d60e8bfe3386c1f69e64979c79d"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/TransportSubsystem.h",
+      "bytes": 12945,
+      "sha256": "098434f409935bd57860599d0da3701f231a75329aa5c06386c4c98dc4b65550"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Public/WorldClimateSubsystem.h",
+      "bytes": 2528,
+      "sha256": "0aace06832530ece6dc4ec32e379bbe744298c3acb11f73cc3e903aa8205d5db"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Quiz/QuizSubsystem.cpp",
+      "bytes": 6116,
+      "sha256": "ea324ef7ca2cb141c38ab71c3c1488c9cb0bc0a3180b88a96903266c4c38b176"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Quiz/QuizSubsystem.h",
+      "bytes": 2310,
+      "sha256": "8f0d3544fd768e62b8b6309e555bec3837e2bfa4ebcdae74eff5579762106ff7"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Simulation/DisasterMath.cpp",
+      "bytes": 6938,
+      "sha256": "cca408966c421186b4f7d3b3fc3fd94d18c5bf391347be81eba982da77b83767"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Simulation/DisasterMath.h",
+      "bytes": 5123,
+      "sha256": "d9f32182338d395b545129ecd5f63c9491d647ea296e9b08ee17bf5eabbbe7bb"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Simulation/DisasterSimulator.cpp",
+      "bytes": 4907,
+      "sha256": "0d84a4d86bb1fea0f5e564a551b008bca075975be700577a5f232ab7a2d753b5"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Simulation/DisasterSimulator.h",
+      "bytes": 2503,
+      "sha256": "9da2edc1c61f083111981e1a0b1f97d7fbbc37ed90754418229475c8d83babf3"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/Types/AftershockTypes.h",
+      "bytes": 4906,
+      "sha256": "f16086bdcbd55616c74ba059d930a4bfdc41a611a9dd9962debe0cc14def4f28"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/UI/AftershockNewGameTutorialWidget.cpp",
+      "bytes": 18803,
+      "sha256": "b3f2abe7c3b533f6a7ec2aab85b5f129dc62bb48f4dd5b369d0a4864d7c62b6e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/UI/AftershockNewGameTutorialWidget.h",
+      "bytes": 2992,
+      "sha256": "9443373f75f818c1d626803d87a8873f8b9b5f39de9f97bc5481d1692e359b0e"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/UI/CasualtyLedgerPanel.cpp",
+      "bytes": 11404,
+      "sha256": "13ca99895d8532af23034ee387fb3c9364b083a8381caed7617422061c639c13"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/UI/CasualtyLedgerPanel.h",
+      "bytes": 2170,
+      "sha256": "a9a0dbd45af1adf096a147758b6276c5f167393755cf965ef4ed42034d9f38c6"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/UI/WaterGlassEpilogueWidget.cpp",
+      "bytes": 9578,
+      "sha256": "83641032632cc63420904ec8cbefda2f36e75a66f6fc6dd3b31ca89f81d72c7f"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/UI/WaterGlassEpilogueWidget.h",
+      "bytes": 1961,
+      "sha256": "443da06d51d31bf70b30af4915bd6535dc0bd2faedcc81e173a3bbd0f889dcf1"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/UI/WaterGlassFrameWidget.cpp",
+      "bytes": 6946,
+      "sha256": "8e43ed7c985eba358bd8cddcdff1b33e6a5530843c06ce2261de5a7791094a7c"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/UI/WaterGlassFrameWidget.h",
+      "bytes": 757,
+      "sha256": "352b08dc871433de658b5ac1432412853f32f26e5f0ad558c8fef955ea1d2083"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/World/GridManager.cpp",
+      "bytes": 11525,
+      "sha256": "82f65ac9a8a6030a640bae17be2f05c3c6c9f9ef81f4c2a9ee283ce024d2db61"
+    },
+    {
+      "path": "Source/JamProject/Aftershock/World/GridManager.h",
+      "bytes": 3759,
+      "sha256": "a90411719f683255d55a55c853c91bde7ae97d738db79613ba4400de319eebf0"
+    },
+    {
+      "path": "Source/JamProject/JamProject.Build.cs",
+      "bytes": 2182,
+      "sha256": "056590d4bbf02dc9c4d619189ae8be146d1d379d9a6efce49fdc7dbbc27d6f62"
+    },
+    {
+      "path": "Source/JamProject/JamProject.cpp",
+      "bytes": 237,
+      "sha256": "411e48507268d16de1d80f3e5ef60f2cddb0ec5a633fc96355ff6f9537b62b7d"
+    },
+    {
+      "path": "Source/JamProject/JamProject.h",
+      "bytes": 201,
+      "sha256": "e7296090f50391bf73a4c2b43545b1dd1660a89d51014ccdbcbb1e555aadcf7a"
+    },
+    {
+      "path": "Source/JamProject/JamProjectCharacter.cpp",
+      "bytes": 4799,
+      "sha256": "50a6ada4c6db61316510c94b4ea1c08c530d03797ea291409b43b7aa9e124f37"
+    },
+    {
+      "path": "Source/JamProject/JamProjectCharacter.h",
+      "bytes": 2711,
+      "sha256": "4a899161e1a9285f1891090633b0ea764fbc10e42e5efce53bb1159eb2b94649"
+    },
+    {
+      "path": "Source/JamProject/JamProjectGameMode.cpp",
+      "bytes": 149,
+      "sha256": "1a5d581515ad84bb83a953f6b46318a7a345981ca81bf91cd96dd80898f3b467"
+    },
+    {
+      "path": "Source/JamProject/JamProjectGameMode.h",
+      "bytes": 397,
+      "sha256": "de59d593979afb10754472660736e3a9f24a4485c792b3b812cca36556f35121"
+    },
+    {
+      "path": "Source/JamProject/JamProjectPlayerController.cpp",
+      "bytes": 1857,
+      "sha256": "e50e49a3a082a65be1b1c6c16efa56f00621784ff617b0e7cd4a9e4d98165a0c"
+    },
+    {
+      "path": "Source/JamProject/JamProjectPlayerController.h",
+      "bytes": 1506,
+      "sha256": "cc10c8525525561f0aa1b34ad42b898633caeb375740a7391a3beffecf7dad3f"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/CombatAIController.cpp",
+      "bytes": 754,
+      "sha256": "284d569aa4e0da606fa57cde8972f2ae5386f2563a7096fa1c9bbef018b90c1d"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/CombatAIController.h",
+      "bytes": 693,
+      "sha256": "dfe3912b8f2a8395dca2b00facc8255817d68f7dbbcfa50373a32752d538d8d1"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/CombatEnemy.cpp",
+      "bytes": 9805,
+      "sha256": "03937d099e01da430a2ad5e85e9b23536f686b3239b695ce6772f8adce4ab6db"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/CombatEnemy.h",
+      "bytes": 8063,
+      "sha256": "f0a48761effe77535d7bbc5f8e38d440535e6fda1561b1de4cf6e25430dea092"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/CombatEnemySpawner.cpp",
+      "bytes": 3555,
+      "sha256": "12a10515ade0bc00b4c42a9aaec24e67353f6107a4022f359f19d0f9d939173f"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/CombatEnemySpawner.h",
+      "bytes": 3672,
+      "sha256": "7340c0edf7d88a69187117fdb602d4dda686d29e5c0472f89bf91c530d1696fe"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/CombatStateTreeUtility.cpp",
+      "bytes": 11900,
+      "sha256": "9cb87c332c423d41831a770b00c76382a7fd08a9b0f847d31c0e85d2a5345fef"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/CombatStateTreeUtility.h",
+      "bytes": 15061,
+      "sha256": "4f318c7613254956132de5304d1aa59b6495a8f8417acfe4f417f71d694c27fe"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/EnvQueryContext_Danger.cpp",
+      "bytes": 662,
+      "sha256": "55ff89ec36863bf9d4ff0bb69f0608d8071ffd3a8af325e1350160954ba76c0e"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/EnvQueryContext_Danger.h",
+      "bytes": 600,
+      "sha256": "25465a300d4c651c34a35d714d07d474b2d42b1a48d9d363f96ce9e627eba5f9"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/EnvQueryContext_Player.cpp",
+      "bytes": 667,
+      "sha256": "29709e7fcc2f5b016e089b1ff36031bb4309c282d1fbe1991bcaa77967a9cf92"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/AI/EnvQueryContext_Player.h",
+      "bytes": 585,
+      "sha256": "a01581486af43f53da11549769cc900a3f98d1f792fc0b837eeec44347587b47"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Animation/AnimNotify_CheckChargedAttack.cpp",
+      "bytes": 712,
+      "sha256": "a7ba5be23d5972270c787a42534591214b607fae13dfb41ddcc9724f12fc9817"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Animation/AnimNotify_CheckChargedAttack.h",
+      "bytes": 649,
+      "sha256": "7217e969011c57388dbc568484211517f883e015f2014e20a62a5b306c8117f6"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Animation/AnimNotify_CheckCombo.cpp",
+      "bytes": 669,
+      "sha256": "6f208a41ae7fa918e14a155513a524698d638cbd09592fcaed2254af6458b766"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Animation/AnimNotify_CheckCombo.h",
+      "bytes": 626,
+      "sha256": "7fba79fd88e486ed1c938081158049bb734d8e82ce4284fbef46e2d023a68033"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Animation/AnimNotify_DoAttackTrace.cpp",
+      "bytes": 643,
+      "sha256": "330da20e757dce4a66307456e45cb504b95bb2b7390f57a766119887bbc09192"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Animation/AnimNotify_DoAttackTrace.h",
+      "bytes": 808,
+      "sha256": "db0a34ed8243e7e75c4b49cfba76623045a7d756b05eb8b4254ea89b974c3564"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/CombatCharacter.cpp",
+      "bytes": 16095,
+      "sha256": "6bdd232c5ac4b1b3fb8814ba6d08565f8db7dc955f733a497841948c330713ba"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/CombatCharacter.h",
+      "bytes": 11884,
+      "sha256": "8c5e9d20f8930ac3a334ade19d3213c230c92a6f8696b564497145f9f68387e8"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/CombatGameMode.cpp",
+      "bytes": 1484,
+      "sha256": "868f294ce822f060b44261a1b73a71c52e6bc2b745eb2db572a1a1de8bcc4ef8"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/CombatGameMode.h",
+      "bytes": 936,
+      "sha256": "0d22d9e00aae9544f29d81f73588870e77c7339de6f2277482ca002d12f208d6"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/CombatPlayerController.cpp",
+      "bytes": 2698,
+      "sha256": "3eb52ac32399bce0e174972a34a3bab81b8fde0dde3e36dadf166169d4c38f3b"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/CombatPlayerController.h",
+      "bytes": 2233,
+      "sha256": "a0438cecbd065fc53897fcdcfc41881e2dd7a778479a126a3147b3dc3a37eb20"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatActivationVolume.cpp",
+      "bytes": 1498,
+      "sha256": "93aa5c83de6c151f1a3e61babc3a784540863943cad6dd739358a9bafb5c067d"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatActivationVolume.h",
+      "bytes": 1040,
+      "sha256": "c6934e8f0ae70a3812d855283cfb46df8005e3a93935126545fd64e302b189c5"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatCheckpointVolume.cpp",
+      "bytes": 1250,
+      "sha256": "49dc1064892d878febcd45a8d1ef098f9785702f6afa3556f8f5490ca8b01033"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatCheckpointVolume.h",
+      "bytes": 795,
+      "sha256": "14dceca3d22159f950430c77cb0b29fb18bf2134d53f5fc4156a0db18963bc00"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatDamageableBox.cpp",
+      "bytes": 2175,
+      "sha256": "11a1c8650864afdedbd423cf6014ffa8898c89f5a508a4e155fff980983eb68b"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatDamageableBox.h",
+      "bytes": 2195,
+      "sha256": "798b7962553e0a5b9c2488358d5b0bf6db0766133b952347b20a4dae80640b81"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatDummy.cpp",
+      "bytes": 1593,
+      "sha256": "0c6b76bf72e5c7415a2577521669a195a17e588174e25504263f13ee521fd3c6"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatDummy.h",
+      "bytes": 2054,
+      "sha256": "69240ee78d0432269e092f3a056b51466c3289022c18ab465d5e310ffd7d6d38"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatLavaFloor.cpp",
+      "bytes": 889,
+      "sha256": "8f0324387aa077014c2fe82feee09b6a305f27839090d1881aaca29ee6c4b594"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Gameplay/CombatLavaFloor.h",
+      "bytes": 981,
+      "sha256": "35480e9854364122fe89ed8a99fdcc5594541f8e9183062d8c3ad99b3f5f32ed"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Interfaces/CombatActivatable.cpp",
+      "bytes": 86,
+      "sha256": "e2f80a8a5faff0f3b7851080da2a603ab0f7b5f5631a18846be77f858dfd7174"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Interfaces/CombatActivatable.h",
+      "bytes": 980,
+      "sha256": "667420904131ab6dd15425dfcdc86f8cbc76e7c8192f448b714ee455e1abc68a"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Interfaces/CombatAttacker.cpp",
+      "bytes": 85,
+      "sha256": "2a0e7797fefa8f31a41260377879aa8e7278c146b3e04719eeca10052f3b4b21"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Interfaces/CombatAttacker.h",
+      "bytes": 1061,
+      "sha256": "02d3519e3dd56562b5c0ed97a42cb63eba04927565f2eb5058c835b181ec1578"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Interfaces/CombatDamageable.cpp",
+      "bytes": 187,
+      "sha256": "8b466a64c3c1ad64ca25e7342c161173b1c3bc7f975751695af6703d9f43748a"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/Interfaces/CombatDamageable.h",
+      "bytes": 1286,
+      "sha256": "4a93e03fd3026d02bf5209a667576ee2a6b26d98eb1f6d8be4571ab7682a42ed"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/UI/CombatLifeBar.cpp",
+      "bytes": 86,
+      "sha256": "66072f80a18fd2b36ff7ed9d2360129dfe3665f810209d8cda47e097d51a501e"
+    },
+    {
+      "path": "Source/JamProject/Variant_Combat/UI/CombatLifeBar.h",
+      "bytes": 620,
+      "sha256": "b334b1e05929d5614ff04935a3dc5dd97befe4bbb486f0436c6d5ab3073b9208"
+    },
+    {
+      "path": "Source/JamProject/Variant_Platforming/Animation/AnimNotify_EndDash.cpp",
+      "bytes": 661,
+      "sha256": "bab4b0aa7c6912a40145a4ee0c1fe96df765fadf610f370ffb1ead2dc338859a"
+    },
+    {
+      "path": "Source/JamProject/Variant_Platforming/Animation/AnimNotify_EndDash.h",
+      "bytes": 643,
+      "sha256": "3fa1acff7bc00157507f670de00b40a14f35a6a131c95a1a7646cacb364c080a"
+    },
+    {
+      "path": "Source/JamProject/Variant_Platforming/PlatformingCharacter.cpp",
+      "bytes": 10697,
+      "sha256": "176a26c72f343397c316744b9b049c180ab3ed09a65faa4553b1a960f778732e"
+    },
+    {
+      "path": "Source/JamProject/Variant_Platforming/PlatformingCharacter.h",
+      "bytes": 6127,
+      "sha256": "5e862072af0919d7c4c04c740e823a0568bffac00577d1a73bb934d15c63da1f"
+    },
+    {
+      "path": "Source/JamProject/Variant_Platforming/PlatformingGameMode.cpp",
+      "bytes": 1514,
+      "sha256": "f717126ab93860ad9c102bfa067b2d14dfd1f4a755fa952d7c6b907d4d47b1e7"
+    },
+    {
+      "path": "Source/JamProject/Variant_Platforming/PlatformingGameMode.h",
+      "bytes": 948,
+      "sha256": "fca351d4dc24abcd810453e9dcad37b10404d5b2e2e5fd6613b301c868ff4094"
+    },
+    {
+      "path": "Source/JamProject/Variant_Platforming/PlatformingPlayerController.cpp",
+      "bytes": 2850,
+      "sha256": "277294cce03bf848c681e7f113258bb8c126df5c0da758f5988aee13e993cf18"
+    },
+    {
+      "path": "Source/JamProject/Variant_Platforming/PlatformingPlayerController.h",
+      "bytes": 2010,
+      "sha256": "45db8b4fa47a7c6d90a049783b07e9d2ead05fb622ddf77dc03f01b07c447e35"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/AI/SideScrollingAIController.cpp",
+      "bytes": 616,
+      "sha256": "d88c97c73ae881dd4e01e66cd716bc08ce72c62d55685d5a77b44d85d4400ffb"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/AI/SideScrollingAIController.h",
+      "bytes": 613,
+      "sha256": "a03041f0aa841a98ccbc374270ed4b430944821bed0be42d00ed464cbc6dda56"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/AI/SideScrollingNPC.cpp",
+      "bytes": 1383,
+      "sha256": "2ee346c7399b8e567883c87dc584cceb9aea66782541b0aa85aba803663dd192"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/AI/SideScrollingNPC.h",
+      "bytes": 1813,
+      "sha256": "dbbf579fccc41103b9a42241c2091ccaa7b179cfb93a45a1c72d78b3d7871ab0"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/AI/SideScrollingStateTreeUtility.cpp",
+      "bytes": 2191,
+      "sha256": "cbbc76a40e15807bc8cdcb36a2c221a78e436db049de9b91271076184c439f32"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/AI/SideScrollingStateTreeUtility.h",
+      "bytes": 2132,
+      "sha256": "d2180d29f86b969e8bf3cfc38dc478dd9f84d72dbbc511b1214e133fc7ed2e1f"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.cpp",
+      "bytes": 1546,
+      "sha256": "ec45c344d86420c8bf298f96d24a9ce566002f63927d1451a6c34411b7af0791"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Gameplay/SideScrollingJumpPad.h",
+      "bytes": 907,
+      "sha256": "9a1887131b94913c0cd1a5bfdbef33228ba19572adab159ca8b40f145566de8f"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.cpp",
+      "bytes": 820,
+      "sha256": "b4546ccbf1135cd0f5ff6fa6bf7d2e22f3bcc5968ee01f40efad67235a9183e9"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Gameplay/SideScrollingMovingPlatform.h",
+      "bytes": 1874,
+      "sha256": "2cb2bb3d5e8d5cad9ccc951f0a5bd20ff986492b9d09ef1e26b1195349855d4d"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Gameplay/SideScrollingPickup.cpp",
+      "bytes": 1713,
+      "sha256": "2010ed63cdd56cc71d14c88e2d6ab1c7befa7edbcb8026921d4d89a663dec37d"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Gameplay/SideScrollingPickup.h",
+      "bytes": 928,
+      "sha256": "4e3acbc5d236d25b99f882597be2327973c2aabd3a0586d9bad5222e2089f393"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.cpp",
+      "bytes": 2206,
+      "sha256": "4067a7458e1070343b0fba40a07ef5ff147f6ad4667d7113cea6493d54fc79af"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Gameplay/SideScrollingSoftPlatform.h",
+      "bytes": 1530,
+      "sha256": "29b8b0d8679783a777028c6c086f57d2105084c7f66ac99717d60bf2d3f92f40"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Interfaces/SideScrollingInteractable.cpp",
+      "bytes": 192,
+      "sha256": "f145765da2993e59752419ccd968db75dbc7359f98008b3758480f4dd2fa2e52"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/Interfaces/SideScrollingInteractable.h",
+      "bytes": 677,
+      "sha256": "7db9c88a12cc339cf767da9d9c6172f28f196a6d12d0bb8e4afb575cb7eb9f00"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/SideScrollingCameraManager.cpp",
+      "bytes": 3129,
+      "sha256": "7b271db57b2fdb2131dd2f17a6d2df947528bdf1b74f80654a01fbee6ac83dad"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/SideScrollingCameraManager.h",
+      "bytes": 1569,
+      "sha256": "be383db6f6cc92cdc22d68d00cd1ecbd0c7a5eff7150f8ae1049c11ac0362c20"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/SideScrollingCharacter.cpp",
+      "bytes": 10425,
+      "sha256": "6b3ab05a43ad858b183475d5cda14ddd97a3d52a3b504c5617842aeedf282296"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/SideScrollingCharacter.h",
+      "bytes": 5885,
+      "sha256": "a8f855b846d8e44f5a8318398ae7589abfe18fd7a0ebf321dd33d9ffd51e3640"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/SideScrollingGameMode.cpp",
+      "bytes": 2153,
+      "sha256": "346e5f8b66b2401326f76dae03c3d4ecac2b69e3bfb14ceaddecaf2a5c235e66"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/SideScrollingGameMode.h",
+      "bytes": 1529,
+      "sha256": "756dbf932d68b05c3ce3c6e3b12dab05cfcf09a07407a49be9faf422c2007d67"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/SideScrollingPlayerController.cpp",
+      "bytes": 2850,
+      "sha256": "f4af998b57050148b28a0680f8ed7a9081557eede5bf2ff9a6a1a58c81e4a447"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/SideScrollingPlayerController.h",
+      "bytes": 2042,
+      "sha256": "ce8a2757c326c732a7d2099513fa8087bb83f6fc0aa029674bc3ea5a73940dd3"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/UI/SideScrollingUI.cpp",
+      "bytes": 88,
+      "sha256": "80429ad41ef9ddbdbec1e9100cee1196fa2497dd6e552f630dd18c7761d8f5b1"
+    },
+    {
+      "path": "Source/JamProject/Variant_SideScrolling/UI/SideScrollingUI.h",
+      "bytes": 500,
+      "sha256": "d5c7899c6d98edc402e5aa4bf677caaa0d03609e59427c77ec647f35df126e07"
+    },
+    {
+      "path": "Source/JamProjectEditor.Target.cs",
+      "bytes": 427,
+      "sha256": "dd09183de27af77b99cfa4c030f9b154eb17eaa2ef8960a250bc5729c70be165"
+    },
+    {
+      "path": "scripts/audit_assets.py",
+      "bytes": 12902,
+      "sha256": "d6ef76c427fc14fa3e751b0ea99a15de83202c65298f5b46b37a1d15336f1dc0"
+    },
+    {
+      "path": "scripts/blender_process_kit.py",
+      "bytes": 20841,
+      "sha256": "b4908a8ab9b2d46d363dead81808f6a0ef788228bc65916c413ea7276564ca8b"
+    },
+    {
+      "path": "scripts/build_weather_audio.py",
+      "bytes": 14304,
+      "sha256": "044f24a73ee7bba86f668888fe28c7c4a450ef36d127d2f38f951276ea34ee6e"
+    },
+    {
+      "path": "scripts/building_asset_map.json",
+      "bytes": 10013,
+      "sha256": "e5e8ada277401519f5b2d51e8693d998582ae66ec1e506e3d41b2704fa9d2b21"
+    },
+    {
+      "path": "scripts/curate_performance_geography_evidence.py",
+      "bytes": 50794,
+      "sha256": "59c9394387f3ff32e46e9853bf97c2bb13625fc6cae23460d4f0eda838a6f97a"
+    },
+    {
+      "path": "scripts/curate_responsibility_evidence.py",
+      "bytes": 22205,
+      "sha256": "4e9a5f07646533d45c9fa581addd74eb45713c6028fef3499bd351309c064c3f"
+    },
+    {
+      "path": "scripts/fetch_cc0_ground.py",
+      "bytes": 4679,
+      "sha256": "8f9e1a58318ce3f9a01b3d55490277a7e9a489b9bca4accc847bd93fe56e4678"
+    },
+    {
+      "path": "scripts/fetch_copernicus_detail.py",
+      "bytes": 17771,
+      "sha256": "44c0accee571a064e56614acdf55b7565ffe21d5e39a289804689cf0f0536704"
+    },
+    {
+      "path": "scripts/fetch_global_truecolour.py",
+      "bytes": 13565,
+      "sha256": "b84b9704b631eb5ca7eaf07ebc7be183997d795d09cdddb90607c21e8cfbe395"
+    },
+    {
+      "path": "scripts/fetch_offline_geography.py",
+      "bytes": 18860,
+      "sha256": "e1262565993788a8c36677c01ef8aaf3812fbe1793d9cb82aeea1dfea5769d1f"
+    },
+    {
+      "path": "scripts/fetch_real_geographic_tiles.py",
+      "bytes": 30201,
+      "sha256": "df9b7a2b7b17c15482cc02d5ff5b8bf6ade2834f13ccc66b0793da03e60fa5a8"
+    },
+    {
+      "path": "scripts/fetch_regional_environment_detail.py",
+      "bytes": 16829,
+      "sha256": "336e3c6cfee00083c2f27b36f9ea246bf73d6f3681270948d43a53b413cb34b2"
+    },
+    {
+      "path": "scripts/fetch_regional_overview.py",
+      "bytes": 11893,
+      "sha256": "de1e809cf424bd62d25c9bf87397a76e62381538b8748b7b17d7fa69af568a1b"
+    },
+    {
+      "path": "scripts/fetch_regional_surface_library.py",
+      "bytes": 3636,
+      "sha256": "7aa91eb58d1f2dd9c1d87f273ebbc188cfb755e1df47375b6efd27e9fbf35c19"
+    },
+    {
+      "path": "scripts/fetch_regional_truecolour.py",
+      "bytes": 11698,
+      "sha256": "0ded55641084e0243793e96c1cfb4be4302027e4944fb010c377096d5d697429"
+    },
+    {
+      "path": "scripts/generate_architecture_albedo.py",
+      "bytes": 4578,
+      "sha256": "cd8fbfee65d2121e2d33567103a739ed5498030c20b7dfcf3018c447c5ecf7ca"
+    },
+    {
+      "path": "scripts/generate_architecture_detail.py",
+      "bytes": 3393,
+      "sha256": "cf17bb63cc9baf3025b031ea27a056e8042f2a97f2f98b57d0d8785501747c06"
+    },
+    {
+      "path": "scripts/generate_citizen_proxy.py",
+      "bytes": 3076,
+      "sha256": "500a1f070c8b15d71a1576c51a0e57676bb4666b5390a02bf57af4928b759d45"
+    },
+    {
+      "path": "scripts/generate_citizen_v2.py",
+      "bytes": 5050,
+      "sha256": "2d65efa831e89d74bac4d058a0576e68ab8d9788f3e91a5f30c51e88abe4859c"
+    },
+    {
+      "path": "scripts/generate_ecology_audio.py",
+      "bytes": 2381,
+      "sha256": "7e311c12f06f3bdbc150bf496807b5db37e15348413cef61f44de86ee2841c3f"
+    },
+    {
+      "path": "scripts/generate_mass_movement_audio.py",
+      "bytes": 2989,
+      "sha256": "47723488da712e6c8a2aec2470efdd592206a4ebe6ec6c9caa0ddb4c916d7e81"
+    },
+    {
+      "path": "scripts/generate_procedural_disaster_audio.py",
+      "bytes": 3305,
+      "sha256": "e1fe96b5322ee773bf964220ed6ee7ddee91187b506b0c3588b26d6483cc5b74"
+    },
+    {
+      "path": "scripts/generate_transport_assets.py",
+      "bytes": 7446,
+      "sha256": "6738931382a022ea39d58a072712e6180f7e2c50a2a12c0324d9ad8511c3587b"
+    },
+    {
+      "path": "scripts/generate_transport_v2.py",
+      "bytes": 11529,
+      "sha256": "11a4e332828c777b6326f6d355c52a3b15cec315f827280ce67be7e268b6ecb2"
+    },
+    {
+      "path": "scripts/inspect_fbx_geometry.py",
+      "bytes": 6127,
+      "sha256": "d947677d2d32e6249e5586afbd12b859a73a8d6d27364a6414138c846cb42208"
+    },
+    {
+      "path": "scripts/inspect_kit_models.py",
+      "bytes": 6748,
+      "sha256": "26fc7d5a09c88ec369f9d7b9f14f65ea9ec4d688469a872f72c8c0d55642d3a6"
+    },
+    {
+      "path": "scripts/original_mesh_tools.py",
+      "bytes": 5623,
+      "sha256": "7d1cf2869b661d3eb335cd934e5a3e68b79f6fda289d1938e4977b0de5f78135"
+    },
+    {
+      "path": "scripts/prepare_citysample_architecture.ps1",
+      "bytes": 5175,
+      "sha256": "a6279bf13f4d46bc1a1b82d7cadac4a52cf6f55d54279495ed6cc11c623e975f"
+    },
+    {
+      "path": "scripts/preview_original_visual_sources.py",
+      "bytes": 3694,
+      "sha256": "b010dd98bbb57f42fcd1e991a11ee94cd575b92f09e723a3ebcc0469ac046974"
+    },
+    {
+      "path": "scripts/profile_runtime_memory.py",
+      "bytes": 7284,
+      "sha256": "6783282267fe4d289f1e6b2d01a6e33df8f2da1ec0a5482613ead2abb2598eab"
+    },
+    {
+      "path": "scripts/render_building_icons.py",
+      "bytes": 12601,
+      "sha256": "023d49d022ee3d251eddbcf1fb715fcc07c9cf2b2113093ce87d09afd93d1b43"
+    },
+    {
+      "path": "scripts/requirements-asset-tools.txt",
+      "bytes": 30,
+      "sha256": "1136e748e5f23e58834dc90c2fd5e556b34aa5ffbc5930c12add40dc9a669814"
+    },
+    {
+      "path": "scripts/requirements-geography-cog.txt",
+      "bytes": 179,
+      "sha256": "2dfdd49bc4987aaef47a480e3975c4e9f3b7144dfdd529df13ebffc84881ae73"
+    },
+    {
+      "path": "scripts/requirements-geography.txt",
+      "bytes": 138,
+      "sha256": "1a032299635ac98c91f78e136167b0bd09438794445eb060fbde32e91c65e5fc"
+    },
+    {
+      "path": "scripts/requirements-weather-audio.txt",
+      "bytes": 127,
+      "sha256": "51611b9d700631da7bebbc00265914fb504eb4db4e5db2a61b2f744492de26ee"
+    },
+    {
+      "path": "scripts/run_ue_phase3.bat",
+      "bytes": 1813,
+      "sha256": "c60b584425ab005780b38e04cbe065c5c8b3bc549d7713d46f7388b7397d15f7"
+    },
+    {
+      "path": "scripts/summarize_render_profiles.ps1",
+      "bytes": 5739,
+      "sha256": "9723a9e01617012089db8a492ca09fd63734e0efe1a87a09cbd795e25120f769"
+    },
+    {
+      "path": "scripts/ue_author_building_albedo_detail.py",
+      "bytes": 8092,
+      "sha256": "9cee6f7a0bc55ba83557babdc5e519fd924160529cb3f5ed75ffbb39c5594686"
+    },
+    {
+      "path": "scripts/ue_author_building_detail.py",
+      "bytes": 9905,
+      "sha256": "9253426ae79adf56c42a870c7c51b31c594a160b59f43933f38676e89db5e4bd"
+    },
+    {
+      "path": "scripts/ue_author_citizen_visuals.py",
+      "bytes": 14597,
+      "sha256": "2923904d8d61908eb83404def9e979ba7891ba30d77e07b1e7afe0baccb865e4"
+    },
+    {
+      "path": "scripts/ue_author_city_services.py",
+      "bytes": 20514,
+      "sha256": "ee67265ad2279a34263c9cc2aed814361f03c9ac6ca824b1da32eb591ab83311"
+    },
+    {
+      "path": "scripts/ue_author_citysample_facade.py",
+      "bytes": 21460,
+      "sha256": "6143fdd1ed33d86409f7b9dd704ff7b82faa35e34a2ee51ef7723d0190f3c9a2"
+    },
+    {
+      "path": "scripts/ue_author_coastal_visuals.py",
+      "bytes": 8688,
+      "sha256": "851a222ed15378d681787065df9fbe60bc5dd631814768dc0d26d00a5648eda8"
+    },
+    {
+      "path": "scripts/ue_author_ecology_hazards.py",
+      "bytes": 6329,
+      "sha256": "d7b75eac9d0319a66fe85a261d935f05fec30e3902c9464abdf434a02b68bb1b"
+    },
+    {
+      "path": "scripts/ue_author_environment_quality_surfaces.py",
+      "bytes": 5704,
+      "sha256": "c6788aaa6133b9222d8694302ab28c4e015c95f9139409e47469542d32683097"
+    },
+    {
+      "path": "scripts/ue_author_fire_volume_visuals.py",
+      "bytes": 11221,
+      "sha256": "1198d3b731c587fcdc0877ae7f9ce81e6ce4b259a06865480ea199d9a758cdd6"
+    },
+    {
+      "path": "scripts/ue_author_global_environment.py",
+      "bytes": 14797,
+      "sha256": "f5042056e6c7e578b25557a92275555e6d9005a6f2a886e3a24165617b335ccc"
+    },
+    {
+      "path": "scripts/ue_author_hydraulic_surface.py",
+      "bytes": 19271,
+      "sha256": "e302b44a134033dcc10b03cba57bc8680aa8cdea1eab1c6df84b063c16ef3d68"
+    },
+    {
+      "path": "scripts/ue_author_mass_movement_visuals.py",
+      "bytes": 11700,
+      "sha256": "9449d7c63ae43cadd21ee71f0216b3ba74d64e95ef6c4e9d6745b54d820ead9c"
+    },
+    {
+      "path": "scripts/ue_author_original_surface_final.py",
+      "bytes": 658,
+      "sha256": "bf3c26c5632dd9fd398ef56ea2bbf22d79127e14c1475fbceb70cd25f049ed93"
+    },
+    {
+      "path": "scripts/ue_author_original_visuals.py",
+      "bytes": 474,
+      "sha256": "d4d6599295dd64db8db409dcd10c6d48b232b9adef9d63f9729e674d6ff776df"
+    },
+    {
+      "path": "scripts/ue_author_regional_environment.py",
+      "bytes": 1334,
+      "sha256": "3c33a387f687214cf00fddbab75f0257e9da4db9dd02f87da5d220679e5aa587"
+    },
+    {
+      "path": "scripts/ue_author_regional_surface_styles.py",
+      "bytes": 30703,
+      "sha256": "c9d11b767a448ee3f83b83ad5246404c0912856d38c8e3279ef09a8043adfdda"
+    },
+    {
+      "path": "scripts/ue_author_road_surface_materials.py",
+      "bytes": 4075,
+      "sha256": "b102211065c11224d6bb2c85c8a3c91624ab0b56d66463e7391c0886d7e27155"
+    },
+    {
+      "path": "scripts/ue_author_transport_visuals.py",
+      "bytes": 10694,
+      "sha256": "1bab48ba8370e3697488186bba535fcf8e77c384776f962a58144d4b3fea337a"
+    },
+    {
+      "path": "scripts/ue_author_volcano_visuals.py",
+      "bytes": 10563,
+      "sha256": "263d27ecaf989c03e732df777545f5173388cec77bc150d402c40fa7da348e95"
+    },
+    {
+      "path": "scripts/ue_author_weather_and_globe.py",
+      "bytes": 17810,
+      "sha256": "fd15eaa25c63586cf769a8721ec015201491368149e4bfbd7f03cdb63dd9b29b"
+    },
+    {
+      "path": "scripts/ue_bake_citysample_facades.py",
+      "bytes": 17052,
+      "sha256": "bf07eff930d71c0b18900ae13af2457e39c829b1126ea2d86d7afd799d423aa0"
+    },
+    {
+      "path": "scripts/ue_bind_and_bake_citysample_facades.py",
+      "bytes": 298,
+      "sha256": "a3603e0fda6be33e872b4a9140997519f02583b9f1f90848be5cb141ac3281f4"
+    },
+    {
+      "path": "scripts/ue_create_building_ghost_material.py",
+      "bytes": 2326,
+      "sha256": "9e2aae18775ef6a0bfb195471a51f910ed300f97b67557e1f1834bc40e0e0954"
+    },
+    {
+      "path": "scripts/ue_enable_ism_material_usage.py",
+      "bytes": 992,
+      "sha256": "af591e2103ecdb3100cc52a90a4867363be42ba802169fca5200f66f383d83b5"
+    },
+    {
+      "path": "scripts/ue_extract_citysample_selection.py",
+      "bytes": 10147,
+      "sha256": "4dd2abc291d6f946d665a7e90322b1a0c31db583bbdf6aaca3d30d29f3c7909b"
+    },
+    {
+      "path": "scripts/ue_finalize_global_environment.py",
+      "bytes": 15042,
+      "sha256": "e9cb07f30d42e98329b8267275e58321a9908d9a02e181bc2de0dc1ef6fe5232"
+    },
+    {
+      "path": "scripts/ue_finalize_mert_assets.py",
+      "bytes": 13151,
+      "sha256": "1e8448382dde574dfbca5bd8130ba2fa92a06af4756e4f6b0210f53d67d54145"
+    },
+    {
+      "path": "scripts/ue_fix_architecture_semantic_slots.py",
+      "bytes": 925,
+      "sha256": "f4b5da2230fd7d3bab572c713cdf5216c6d64ab0681c797e4d88cc4291b519b2"
+    },
+    {
+      "path": "scripts/ue_fix_building_instance_damage.py",
+      "bytes": 9518,
+      "sha256": "397b59362be77a642709e99a604ad581e50a42157be8058bdebd40321ade5db7"
+    },
+    {
+      "path": "scripts/ue_fix_citysample_sampler_types.py",
+      "bytes": 3351,
+      "sha256": "a8440e6421cea2c78715a6c32c78fe1e6b106749ab188c6b97b5a5b7a4fe2101"
+    },
+    {
+      "path": "scripts/ue_fix_ism_material_usage.py",
+      "bytes": 2890,
+      "sha256": "9ff192b2be63a54ac20e94dad63e266039b007348fd3b9fa9ee923395704480c"
+    },
+    {
+      "path": "scripts/ue_import_and_materials.py",
+      "bytes": 32203,
+      "sha256": "138e77461718f7a8e37366d0890e67a54cc496856fea0c3f3c57768111553349"
+    },
+    {
+      "path": "scripts/ue_import_assembly_sign.py",
+      "bytes": 6668,
+      "sha256": "f7b61016df286b77e2b56838a481a552d9d55bcdd28f5c535722dec0c591c709"
+    },
+    {
+      "path": "scripts/ue_import_cc0_ground.py",
+      "bytes": 10541,
+      "sha256": "d023928bc017f9131084474e5ea05e7c35d6c05c4c083579eb82476be99b8d59"
+    },
+    {
+      "path": "scripts/ue_import_elevenlabs_audio.py",
+      "bytes": 15949,
+      "sha256": "d562bf287dcef384d6dad00d2c0b5f8406ddd7e9f455adb2f2a3b241d4972ea8"
+    },
+    {
+      "path": "scripts/ue_import_global_truecolour.py",
+      "bytes": 11756,
+      "sha256": "3a6b42fd0839a030ac759e5c2549b89bb3ee0564a362717fd3b5ff145b9f9cf7"
+    },
+    {
+      "path": "scripts/ue_import_green_meadow.py",
+      "bytes": 5274,
+      "sha256": "ca9522398e3872e5195cfc1d700b49fa1a15b2ed03209eb072806618bc2a8e89"
+    },
+    {
+      "path": "scripts/ue_import_mass_movement_audio.py",
+      "bytes": 1916,
+      "sha256": "d726ebcfcd636e8640003c0e64d29b0b9c4161765d2696de3ebaa0bd08116b0c"
+    },
+    {
+      "path": "scripts/ue_import_opening_artwork.py",
+      "bytes": 2627,
+      "sha256": "55d2cb65878e036c04ca90b96581af6b26e2f492df123c371a2afd0a9d9e6206"
+    },
+    {
+      "path": "scripts/ue_import_regional_macro_imagery.py",
+      "bytes": 12355,
+      "sha256": "3ab1d5f5ad93f85dcbf0c35d9bdf5c98fa5c83296c8b6b4ada70e065d6895fb5"
+    },
+    {
+      "path": "scripts/ue_import_regional_surround_imagery.py",
+      "bytes": 13582,
+      "sha256": "2fa1d3c94560f83dbae8643ba39e510f044a143dce436490f2ce21866a8323db"
+    },
+    {
+      "path": "scripts/ue_import_studio_branding.py",
+      "bytes": 15628,
+      "sha256": "fc96efd842ee4ee2ee079d6ff9b88efc326342a76ab4d29f1d85bcf9d82f7697"
+    },
+    {
+      "path": "scripts/ue_polish_building_materials.py",
+      "bytes": 3537,
+      "sha256": "46095f49181e122d08c00247cad188d5e2d7465867e1748da2c2cc3646d221ac"
+    },
+    {
+      "path": "scripts/ue_prepare_citysample_architecture.py",
+      "bytes": 20360,
+      "sha256": "99e56204557395193ae4ad4e031184c71ddcc73dcf1e3927659fb551e1adb1c5"
+    },
+    {
+      "path": "scripts/ue_refine_ground_microvariation_v2.py",
+      "bytes": 7449,
+      "sha256": "7278527ff7fbfdca1e7575a00f952f6be7c2a72ea9a49ed53533234715c4a326"
+    },
+    {
+      "path": "scripts/ue_refine_ground_stochastic_v3.py",
+      "bytes": 11944,
+      "sha256": "dba24114f5206c5b0be1d35c1e721ddde38c0dcc7f48948f19087e44530e6c77"
+    },
+    {
+      "path": "scripts/ue_refine_ground_surface.py",
+      "bytes": 10505,
+      "sha256": "7165d9455b63a8692d6418fae52a977ff09cf7367601c0eff181ee4aab77afd9"
+    },
+    {
+      "path": "scripts/ue_reimport_building_icons.py",
+      "bytes": 2190,
+      "sha256": "7f9d96d8c0806c319763a4b009127b0bb41411c7b4bd1b94a66962d63c1cefe5"
+    },
+    {
+      "path": "scripts/ue_repair_environment_tangents.py",
+      "bytes": 11151,
+      "sha256": "bde09018f398c3457a72c2bfd90f867e0d3df163a72f2d32ce0c34e4ddfc193f"
+    },
+    {
+      "path": "scripts/ue_setup_data_assets_and_chaos.py",
+      "bytes": 13366,
+      "sha256": "ac0a031b2721490b7cf01c5b763d25f2774cfdf4a31634f4d546939e78313332"
+    },
+    {
+      "path": "scripts/ue_setup_disaster_fx_materials.py",
+      "bytes": 12158,
+      "sha256": "3395577939e21354ac0e8e5f3973c210f06beda22cff4e290b1aea4fdebdb73e"
+    },
+    {
+      "path": "scripts/ue_setup_dynamic_water_textures.py",
+      "bytes": 387,
+      "sha256": "cea9f101f4ccc5568210770f2fc62b49b2e79a8ea4f671aae59435dd6c399a41"
+    },
+    {
+      "path": "scripts/ue_trace_ground_graph.py",
+      "bytes": 9284,
+      "sha256": "6234b03b52914fc4bd50b3785e916b02c11343b7b56ffe50a4ed12b392c05e74"
+    },
+    {
+      "path": "scripts/ue_unify_global_regional_colour.py",
+      "bytes": 23007,
+      "sha256": "0d4d416cd798e11f943180cd2a16090fdb6da3bfa12bf7fcecc94c838a348382"
+    },
+    {
+      "path": "scripts/ue_upgrade_architecture_art_v2.py",
+      "bytes": 13147,
+      "sha256": "7ab352ddaed5fdfb453322b3e6c3b61274674e9f58e1489646b6bf53c5ab364d"
+    },
+    {
+      "path": "scripts/ue_upgrade_flood_volume.py",
+      "bytes": 13306,
+      "sha256": "f7a93e45a28ab38f13200acfe7940ff23c7080ecc8669d9af9b10ce7a8d74b2d"
+    },
+    {
+      "path": "scripts/ue_upgrade_globe_climate.py",
+      "bytes": 25396,
+      "sha256": "5559139f59ab7634ab53639476b624e4991d962f6d375e580faeef455ab55606"
+    },
+    {
+      "path": "scripts/ue_upgrade_presentation_materials.py",
+      "bytes": 22080,
+      "sha256": "55f42bed4dd0cf1588ae42aa4c8cd76803bf7ad67cf3c58cc636dd7d77acaffd"
+    },
+    {
+      "path": "scripts/ue_upgrade_river_water_visual.py",
+      "bytes": 16030,
+      "sha256": "208b7f45c429bf080359d5543fe433ba0600618d47e0d785a061503ae21a4b2c"
+    },
+    {
+      "path": "scripts/ue_upgrade_weather_audio_assembly.py",
+      "bytes": 8694,
+      "sha256": "0e8623df3891a2e71d7e7810ac3ff64f303567787a6b76825219397b6a33f8d7"
+    },
+    {
+      "path": "scripts/ue_validate_global_environment.py",
+      "bytes": 18682,
+      "sha256": "4b0fb68d57815f02813b72e75ec2628a285389448e0a79ea9b2a983092689907"
+    },
+    {
+      "path": "scripts/ue_validate_original_visuals.py",
+      "bytes": 5363,
+      "sha256": "78ce4850c5eb5b2bd7d6b48f90198907a5dec8568e43db0ef74e98412410b60d"
+    },
+    {
+      "path": "scripts/validate_first_playable.py",
+      "bytes": 12500,
+      "sha256": "b706d03fc0f275a0fa5af29d76a93be66ff207ca3376ba77407f85c11e1d91ef"
+    },
+    {
+      "path": "scripts/validate_hydraulic_runtime.py",
+      "bytes": 8402,
+      "sha256": "9e224bfd14fff0cddcd8641fd4c1dff4dab77004e48e7faf9fff148c6251b190"
+    },
+    {
+      "path": "scripts/validate_real_geographic_tiles.py",
+      "bytes": 10636,
+      "sha256": "4a14336019397ae5b182394501a35a837baa6cf3dc0a2a9427dc47896aab864b"
+    },
+    {
+      "path": "scripts/validate_regional_environment.py",
+      "bytes": 16116,
+      "sha256": "b9f87d25b6347e765d05e05f216b6ab3695c2c361161b463876402743e7f555a"
+    },
+    {
+      "path": "scripts/validate_runtime_presentations.py",
+      "bytes": 72252,
+      "sha256": "f9f9ae0e51e52371686906b9fa0569625d5d7bca14c12bbec2be19cbeffd0f21"
+    },
+    {
+      "path": "scripts/validate_settings_menu.py",
+      "bytes": 4788,
+      "sha256": "5a41c787474ee86b77cb8d46fcb63c0631d569acdebe58651346b08175720d10"
+    },
+    {
+      "path": "scripts/validate_single_road.py",
+      "bytes": 15338,
+      "sha256": "8a18df94b4deb1a5d19f69cadb4ce7d245a6fb5c80b9c55169e238e1aa2dfb3e"
+    },
+    {
+      "path": "scripts/validation_settings_isolation.py",
+      "bytes": 6430,
+      "sha256": "269bb1a1c7b0489f6143704a12941fa33edced0cce244fbef1041c1ee7a87633"
+    },
+    {
+      "path": "scripts/verify_disaster_epicenters_and_fx.py",
+      "bytes": 1792,
+      "sha256": "44b11cd67e838337640778a829f8dd26bd639e70758c89af0a5933a52fde5204"
+    },
+    {
+      "path": "scripts/write_citysample_architecture_manifest.py",
+      "bytes": 15466,
+      "sha256": "1abfc11896857431791d943b298c45f81397f102f3060df8b1789c761382d1e3"
+    }
+  ],
+  "secret_scan": "Bounded known credential patterns, zero matches; not a universal secret-detection guarantee.",
+  "excluded_asset_policy": "Binary Content and raw imports are omitted from this code review export. This does not claim that all omitted assets are restricted. City Sample and ElevenLabs raw files must not be made public as an asset/audio library. Own asset reconstruction scripts and acquisition guidance are included.",
+  "symlink_policy": "Source/Aftershock is a git symlink alias to JamProject/Aftershock. It is exported as the same UTF-8 target bytes (the Windows non-symlink checkout representation), not as extra implementation code."
+}
